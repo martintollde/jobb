@@ -1,0 +1,430 @@
+ssyk_code,occupation_name_sv,occupation_name_en,category_1digit,category_2digit,employment_count,median_monthly_salary_sek,year
+0110,Officerare,Commissioned armed forces officers,Militärt arbete,01,2274,50000.0,2024
+0210,Specialistofficerare,Non-commissioned armed forces officers,Militärt arbete,02,4901,41200.0,2024
+0310,Soldater m.fl.,"Armed forces occupation, other ranks",Militärt arbete,03,7015,28300.0,2024
+1111,Politiker,Legislators,Chefer,11,468,,2024
+1112,"General-, landstings- och kommundirektörer m.fl.",Senior government officials,Chefer,11,947,110900.0,2024
+1113,Chefstjänstemän i intresseorganisationer,Senior officials of special-interest organisations,Chefer,11,1176,49800.0,2024
+1120,Verkställande direktörer m.fl.,Directors and chief executives,Chefer,11,23251,72200.0,2024
+1211,"Ekonomi- och finanschefer, nivå 1","Finance managers, level 1",Chefer,12,7458,80000.0,2024
+1212,"Ekonomi- och finanschefer, nivå 2","Finance managers, level 2",Chefer,12,14002,63600.0,2024
+1221,"Personal- och HR-chefer, nivå 1","Human resource managers, level 1",Chefer,12,4277,65000.0,2024
+1222,"Personal- och HR-chefer, nivå 2","Human resource managers, level 2",Chefer,12,7076,64600.0,2024
+1230,Förvaltnings- och planeringschefer,Administration and planning managers,Chefer,12,12383,68000.0,2024
+1241,"Informations-, kommunikations- och PR-chefer, nivå 1","Information, communication and public relations managers, level 1",Chefer,12,1711,74500.0,2024
+1242,"Informations-, kommunikations - och PR-chefer, nivå 2","Information, communication and public relations managers, level 2",Chefer,12,3677,60000.0,2024
+1251,"Försäljnings- och marknadschefer, nivå 1","Sales and marketing managers, level 1",Chefer,12,15281,72000.0,2024
+1252,"Försäljnings- och marknadschefer, nivå 2","Sales and marketing managers, level 2",Chefer,12,23763,67800.0,2024
+1291,"Övriga administrations- och servicechefer, nivå 1","Administration and service managers not elsewhere classified, level 1",Chefer,12,11367,62900.0,2024
+1292,"Övriga administrations- och servicechefer, nivå 2","Administration and service managers not elsewhere classified, level 2",Chefer,12,18774,55500.0,2024
+1311,"IT-chefer, nivå 1","Information and communications technology service managers, level 1",Chefer,13,4836,75200.0,2024
+1312,"IT-chefer, nivå 2","Information and communications technology service managers, level 2",Chefer,13,11346,69900.0,2024
+1321,"Inköps-, logistik- och transportchefer, nivå 1","Supply, logistics and transport managers, level 1",Chefer,13,4433,59700.0,2024
+1322,"Inköps-, logistik- och transportchefer, nivå 2","Supply, logistics and transport managers, level 2",Chefer,13,9785,54000.0,2024
+1331,"Forsknings- och utvecklingschefer, nivå 1","Research and development managers, level 1",Chefer,13,3187,79300.0,2024
+1332,"Forsknings- och utvecklingschefer, nivå 2","Research and development managers, level 2",Chefer,13,4756,71000.0,2024
+1341,"Chefer inom arkitekt- och ingenjörsverksamhet, nivå 1","Architectural and engineering managers, level 1",Chefer,13,4057,68300.0,2024
+1342,"Chefer inom arkitekt- och ingenjörsverksamhet, nivå 2","Architectural and engineering managers, level 2",Chefer,13,11403,64400.0,2024
+1351,"Fastighets- och förvaltningschefer, nivå 1","Real estate and head of administration managers, level 1",Chefer,13,796,80900.0,2024
+1352,"Fastighets- och förvaltningschefer, nivå 2","Real estate and head of administration managers, level 2",Chefer,13,5075,56000.0,2024
+1361,"Driftchefer inom bygg, anläggning och gruva, nivå 1","Production managers in construction and mining, level 1",Chefer,13,3954,76100.0,2024
+1362,"Driftchefer inom bygg, anläggning och gruva, nivå 2","Production managers in construction and mining, level 2",Chefer,13,17253,56000.0,2024
+1371,"Produktionschefer inom tillverkning, nivå 1","Production managers in manufacturing, level 1",Chefer,13,4230,66700.0,2024
+1372,"Produktionschefer inom tillverkning, nivå 2","Production managers in manufacturing, level 2",Chefer,13,13232,53500.0,2024
+1380,Förvaltare inom skogsbruk och lantbruk m.fl.,Forestry and agricultural production managers,Chefer,13,1164,55300.0,2024
+1411,"Avdelningschefer inom grund- och gymnasieskola samt vuxenutbildning, nivå 1","Primary and secondary schools and adult education managers, level 1",Chefer,14,997,68300.0,2024
+1412,"Rektorer, nivå 2","Headmasters, level 2",Chefer,14,12278,58400.0,2024
+1421,"Avdelningschefer inom förskola, nivå 1","Department managers in pre-school, level 1",Chefer,14,306,58100.0,2024
+1422,"Förskolechefer, nivå 2","Pre-school managers, level 2",Chefer,14,3989,51000.0,2024
+1491,"Övriga avdelningschefer inom utbildning, nivå 1","Department managers in education not elsewhere classified, level 1",Chefer,14,158,,2024
+1492,"Övriga verksamhetschefer inom utbildning, nivå 2","Operations managers in education not elsewhere classified, level 2",Chefer,14,1048,,2024
+1511,"Klinik- och verksamhetschefer inom hälsa och sjukvård, nivå 1","Clinical and operations managers in health care, level 1",Chefer,15,2934,74500.0,2024
+1512,"Avdelnings- och enhetschefer inom hälsa och sjukvård, nivå 2","Department and unit managers in health care, level 2",Chefer,15,11386,54000.0,2024
+1521,"Avdelningschefer inom socialt och kurativt arbete, nivå 1","Department managers in social and curative care, level 1",Chefer,15,1095,63400.0,2024
+1522,"Enhetschefer inom socialt och kurativt arbete, nivå 2","Unit managers in social and curative care, level 2",Chefer,15,4867,52300.0,2024
+1531,"Avdelningschefer inom äldreomsorg, nivå 1","Department managers in elderly care, level 1",Chefer,15,1133,66000.0,2024
+1532,"Enhetschefer inom äldreomsorg, nivå 2","Unit managers in elderly care, level 2",Chefer,15,10235,50000.0,2024
+1540,Chefer och ledare inom trossamfund,Managers and leaders within religious bodies,Chefer,15,923,65700.0,2024
+1591,"Övriga chefer inom samhällsservice, nivå 1","Managers in public services not elsewhere classified, level 1",Chefer,15,4110,70900.0,2024
+1592,"Övriga verksamhetschefer inom samhällsservice, nivå 2","Operations managers in public services not elsewhere classified, level 2",Chefer,15,16948,53300.0,2024
+1611,"Chefer inom bank, finans och försäkring, nivå 1","Financial and insurance managers, level 1",Chefer,16,1554,126500.0,2024
+1612,"Chefer inom bank, finans och försäkring, nivå 2","Financial and insurance managers, level 2",Chefer,16,4392,73000.0,2024
+1711,"Hotell- och konferenschefer, nivå 1","Hotel and conference managers, level 1",Chefer,17,485,55000.0,2024
+1712,"Hotell- och konferenschefer, nivå 2","Hotel and conference managers, level 2",Chefer,17,1409,41500.0,2024
+1721,"Restaurang- och kökschefer, nivå 1","Restaurant managers, level 1",Chefer,17,2013,,2024
+1722,"Restaurang- och kökschefer, nivå 2","Restaurant managers, level 2",Chefer,17,8947,35800.0,2024
+1731,"Chefer inom handel, nivå 1","Retail and wholesale trade managers, level 1",Chefer,17,1927,56300.0,2024
+1732,"Chefer inom handel, nivå 2","Retail and wholesale trade managers, level 2",Chefer,17,8065,46700.0,2024
+1741,"Chefer inom friskvård, sport och fritid, nivå 1","Sports, leisure and wellness managers, level 1",Chefer,17,189,,2024
+1742,"Chefer inom friskvård, sport och fritid, nivå 2","Sports, leisure and wellness managers, level 2",Chefer,17,1590,38000.0,2024
+1791,"Chefer inom övrig servicenäring, nivå 1","Other services managers not elsewhere classified, level 1",Chefer,17,1945,53600.0,2024
+1792,"Chefer inom övrig servicenäring, nivå 2","Other services managers not elsewhere classified, level 2",Chefer,17,6204,41800.0,2024
+2111,Fysiker och astronomer,Physicists and astronomers,Specialister,21,2042,50000.0,2024
+2112,Meteorologer,Meteorologists,Specialister,21,169,42600.0,2024
+2113,Kemister,Chemists,Specialister,21,4418,50200.0,2024
+2114,Geologer och geofysiker m.fl.,"Geologists, geophysicists and related professionals",Specialister,21,2159,45700.0,2024
+2121,Matematiker och aktuarier,Mathematicians and actuaries,Specialister,21,794,69600.0,2024
+2122,Statistiker,Statisticians,Specialister,21,2007,50000.0,2024
+2131,Cell- och molekylärbiologer m.fl.,Cell and molecular biologists and related professionals,Specialister,21,1867,44800.0,2024
+2132,Växt- och djurbiologer,Plant and animal biologists,Specialister,21,953,38800.0,2024
+2133,Farmakologer och biomedicinare,Pharmacologists and related professionals,Specialister,21,1771,63600.0,2024
+2134,Specialister och rådgivare inom lantbruk m.m.,Agricultural professionals,Specialister,21,1803,44000.0,2024
+2135,Specialister och rådgivare inom skogsbruk,Forestry professionals,Specialister,21,2500,41800.0,2024
+2141,Civilingenjörsyrken inom logistik och produktionsplanering,Engineering professionals in logistics and production,Specialister,21,8052,47700.0,2024
+2142,Civilingenjörsyrken inom bygg och anläggning,Engineering professionals in building construction,Specialister,21,15726,51000.0,2024
+2143,Civilingenjörsyrken inom elektroteknik,"Engineering professionals in electrical, electronics and telecommunications",Specialister,21,43666,52800.0,2024
+2144,Civilingenjörsyrken inom maskinteknik,Engineering professionals in mechanical technology,Specialister,21,20696,49800.0,2024
+2145,Civilingenjörsyrken inom kemi och kemiteknik,Engineering professionals in chemical technology,Specialister,21,4848,51700.0,2024
+2146,Civilingenjörsyrken inom gruvteknik och metallurgi,"Engineering professionals in mining-, metallurgy technology and related professionals",Specialister,21,693,52700.0,2024
+2149,Övriga civilingenjörsyrken,Engineering professionals not elsewhere classified,Specialister,21,34555,53800.0,2024
+2161,Arkitekter m.fl.,Architects ,Specialister,21,6864,46000.0,2024
+2162,Landskapsarkitekter,Landscape architects,Specialister,21,1340,45000.0,2024
+2163,Planeringsarkitekter m.fl.,"Architects, town and traffic planners",Specialister,21,4026,46000.0,2024
+2164,Lantmätare,Cartographers and surveyors,Specialister,21,1452,47000.0,2024
+2171,Industridesigner,"Product designers, industrial",Specialister,21,3901,51000.0,2024
+2172,Grafisk formgivare m.fl.,Graphic designers,Specialister,21,7309,43500.0,2024
+2173,Designer inom spel och digitala medier,Game and digital media designers,Specialister,21,4782,46900.0,2024
+2179,Övriga designer och formgivare,Fashion designers and related professionals,Specialister,21,3967,44100.0,2024
+2181,"Arbetsmiljöingenjörer, yrkes- och miljöhygieniker",Environmental and occupational health and hygiene professionals,Specialister,21,2158,51200.0,2024
+2182,Miljö- och hälsoskyddsinspektörer,Environmental and occupational health inspectors,Specialister,21,4227,40000.0,2024
+2183,Specialister inom miljöskydd och miljöteknik,Environmental protection professionals,Specialister,21,4749,46600.0,2024
+2211,Specialistläkare,Specialist physicians,Specialister,22,29331,93100.0,2024
+2212,ST-läkare,Resident physicians,Specialister,22,11346,55000.0,2024
+2213,AT-läkare,General medical practitioners,Specialister,22,3201,38300.0,2024
+2219,Övriga läkare,Other physicians,Specialister,22,6416,47500.0,2024
+2221,Grundutbildade sjuksköterskor,Professional nurses,Specialister,22,55996,42000.0,2024
+2222,Barnmorskor,Professional midwifes,Specialister,22,6719,46500.0,2024
+2223,Anestesisjuksköterskor,Anaesthesia nurses,Specialister,22,3980,48300.0,2024
+2224,Distriktssköterskor,District nurses,Specialister,22,7929,45300.0,2024
+2225,Psykiatrisjuksköterskor,Psychiatry nurses,Specialister,22,3294,45700.0,2024
+2226,Ambulanssjuksköterskor m.fl.,Nurses - Ambulance ,Specialister,22,3113,46900.0,2024
+2227,Geriatriksjuksköterskor,Nurses - geriatric,Specialister,22,8861,43200.0,2024
+2228,Intensivvårdssjuksköterskor,Nurses - Intensive care ,Specialister,22,3901,50300.0,2024
+2231,Operationssjuksköterskor,Nurses - operation,Specialister,22,3275,48900.0,2024
+2232,Barnsjuksköterskor,Nurses - children,Specialister,22,3921,44200.0,2024
+2233,Skolsköterskor,Nurses - school,Specialister,22,4274,44500.0,2024
+2234,Företagssköterskor,Company nurses,Specialister,22,924,43400.0,2024
+2235,Röntgensjuksköterskor,Nurses - radiology ,Specialister,22,3398,41800.0,2024
+2239,Övriga specialistsjuksköterskor,Other specialist nurses,Specialister,22,9572,44800.0,2024
+2241,Psykologer,Psychologists,Specialister,22,10761,47500.0,2024
+2242,Psykoterapeuter,Psychotherapists,Specialister,22,1066,48500.0,2024
+2250,Veterinärer,Veterinarians,Specialister,22,3181,51000.0,2024
+2260,Tandläkare,Dentists,Specialister,22,7725,50700.0,2024
+2271,Kiropraktorer och naprapater m.fl.,Chiropractors and naprapaths,Specialister,22,1120,,2024
+2272,Sjukgymnaster,Physiotherapists,Specialister,22,12454,38500.0,2024
+2273,Arbetsterapeuter,Occupational therapist,Specialister,22,9279,38200.0,2024
+2281,Apotekare,Pharmacists,Specialister,22,3032,,2024
+2282,Dietister,Dieticians,Specialister,22,1485,36900.0,2024
+2283,Audionomer och logopeder,Audiologists and speech therapists,Specialister,22,3236,37300.0,2024
+2284,Optiker,Opticians,Specialister,22,1956,45500.0,2024
+2289,Övriga specialister inom hälso- och sjukvård,Health professionals not elsewhere classified,Specialister,22,1640,41000.0,2024
+2311,Professorer,Professors,Specialister,23,4800,75000.0,2024
+2312,Universitets- och högskolelektorer,University and higher education lecturers,Specialister,23,11113,53500.0,2024
+2313,Forskarassistenter m.fl.,Research assistants,Specialister,23,3202,42400.0,2024
+2314,Doktorander,PhD Students,Specialister,23,10188,32800.0,2024
+2319,Övriga universitets- och högskollärare,University and higher education teachers not elsewhere classified,Specialister,23,11171,42000.0,2024
+2320,Lärare i yrkesämnen,Vocational education teachers,Specialister,23,12188,41700.0,2024
+2330,Gymnasielärare,Secondary education teachers,Specialister,23,30159,42600.0,2024
+2341,Grundskollärare,Primary school teachers,Specialister,23,119051,40800.0,2024
+2342,Fritidspedagoger,Recreation leaders,Specialister,23,18191,35400.0,2024
+2343,Förskollärare,Preschool teachers,Specialister,23,64705,36600.0,2024
+2351,Speciallärare och specialpedagoger m.fl.,Special teachers and special needs teachers,Specialister,23,15406,46100.0,2024
+2352,Studie- och yrkesvägledare,School counsellor ,Specialister,23,4748,40000.0,2024
+2359,Övriga pedagoger med teoretisk specialistkompetens,Teaching professionals not elsewhere classified,Specialister,23,18572,36200.0,2024
+2411,Revisorer m.fl.,Accountants,Specialister,24,15502,46300.0,2024
+2412,Controller,Financial controllers,Specialister,24,22879,53100.0,2024
+2413,Finansanalytiker och investeringsrådgivare m.fl.,Financial and investment advisers,Specialister,24,8697,64300.0,2024
+2414,Traders och fondförvaltare,Traders and fund administrators,Specialister,24,2449,66100.0,2024
+2415,Nationalekonomer och makroanalytiker m.fl.,Economists and macro analyst,Specialister,24,1595,52000.0,2024
+2419,Övriga ekonomer,Economists not elsewhere classified,Specialister,24,11903,51600.0,2024
+2421,Lednings- och organisationsutvecklare,Management and organisation analysts,Specialister,24,50534,53000.0,2024
+2422,Planerare och utredare m.fl.,Policy administration professionals,Specialister,24,74651,44500.0,2024
+2423,Personal- och HR-specialister,Personnel and human resources specialist,Specialister,24,27372,47300.0,2024
+2431,Marknadsanalytiker och marknadsförare m.fl.,Advertising and marketing professionals,Specialister,24,28283,50800.0,2024
+2432,"Informatörer, kommunikatörer och PR-specialister",Public relations professionals,Specialister,24,23469,44100.0,2024
+2511,Systemanalytiker och IT-arkitekter m.fl.,System analysts and ICT-architects,Specialister,25,28861,55000.0,2024
+2512,Mjukvaru- och systemutvecklare m.fl.,Software- and system developers,Specialister,25,110698,52500.0,2024
+2513,Utvecklare inom spel och digitala media,Games and digital media developers,Specialister,25,4551,53200.0,2024
+2514,Systemtestare och testledare,System testers and test managers,Specialister,25,6794,48000.0,2024
+2515,Systemförvaltare m.fl.,System administrators,Specialister,25,7331,50600.0,2024
+2516,IT-säkerhetsspecialister,Security specialists (ICT),Specialister,25,4330,55000.0,2024
+2519,Övriga IT-specialister,ICT-specialist professionals not elsewhere classified ,Specialister,25,20167,54700.0,2024
+2611,Advokater,Lawyers,Specialister,26,4006,60000.0,2024
+2612,Domare,Judges,Specialister,26,1901,73800.0,2024
+2613,Åklagare,Prosecutors,Specialister,26,1363,62000.0,2024
+2614,Affärs- och företagsjurister,Business and company lawyers,Specialister,26,9409,64900.0,2024
+2615,Förvaltnings- och organisationsjurister,Management and organisation lawyers,Specialister,26,4909,55900.0,2024
+2619,Övriga jurister,Legal professionals not elsewhere classified,Specialister,26,7822,45000.0,2024
+2621,Museiintendenter m.fl.,Museum curators and related professionals,Specialister,26,2701,38100.0,2024
+2622,Bibliotekarier och arkivarier,Librarians and archivists,Specialister,26,8201,37000.0,2024
+2623,Arkeologer och specialister inom humaniora m.m.,Archaeologists and related professionals,Specialister,26,1345,44200.0,2024
+2641,Författare m.fl.,Authors and related writers,Specialister,26,1566,44200.0,2024
+2642,Journalister m.fl.,Journalists and related professionals,Specialister,26,10274,43000.0,2024
+2643,"Översättare, tolkar och lingvister m.fl.","Translators, interpreters and other linguists",Specialister,26,2985,37500.0,2024
+2651,Bildkonstnärer m.fl.,Visual artists and related artists,Specialister,26,888,,2024
+2652,"Musiker, sångare och kompositörer","Musicians, singers and composers",Specialister,26,5827,44000.0,2024
+2653,Koreografer och dansare,Choreographers and dancers,Specialister,26,476,,2024
+2654,"Regissörer och producenter av film, teater m.m.","Film, stage and related directors and producers",Specialister,26,3320,42600.0,2024
+2655,Skådespelare,Actors,Specialister,26,2114,35500.0,2024
+2661,Socialsekreterare,Social work professionals,Specialister,26,27778,39900.0,2024
+2662,Kuratorer,Counselling professionals,Specialister,26,11648,40000.0,2024
+2663,Biståndsbedömare m.fl.,Assistance analysts,Specialister,26,6698,38000.0,2024
+2669,Övriga yrken inom socialt arbete,Social work professions not elsewhere classified,Specialister,26,8230,36300.0,2024
+2671,Präster,Religious professionals,Specialister,26,2722,49500.0,2024
+2672,Diakoner,Deacons,Specialister,26,1191,42100.0,2024
+3111,"Ingenjörer och tekniker inom industri, logistik och produktionsplanering","Industrial, logistics and production planning engineering technicians",Tekniker,31,8948,43600.0,2024
+3112,Ingenjörer och tekniker inom bygg och anläggning,Construction and manufacturing engineering technicians,Tekniker,31,32824,48000.0,2024
+3113,Ingenjörer och tekniker inom elektroteknik,Electronics engineering technicians,Tekniker,31,26577,46700.0,2024
+3114,Ingenjörer och tekniker inom maskinteknik,Mechanical engineering technicians,Tekniker,31,25345,43600.0,2024
+3115,Ingenjörer och tekniker inom kemi och kemiteknik,Chemical engineering technicians,Tekniker,31,3986,41600.0,2024
+3116,Ingenjörer och tekniker inom gruvteknik och metallurgi,Mining and metallurgical technicians,Tekniker,31,598,45700.0,2024
+3117,GIS- och kartingenjörer,GIS and cartographic engineers,Tekniker,31,2018,39600.0,2024
+3119,Övriga ingenjörer och tekniker,Technicians not elsewhere classified,Tekniker,31,22566,43200.0,2024
+3121,"Arbetsledare inom bygg, anläggning och gruva",Construction and mining supervisors,Tekniker,31,18630,49800.0,2024
+3122,Arbetsledare inom tillverkning,Manufacturing supervisors,Tekniker,31,9989,44600.0,2024
+3151,Maskinbefäl,Ships engineers,Tekniker,31,878,45300.0,2024
+3152,Fartygsbefäl m.fl.,Ships deck officers ,Tekniker,31,1813,49000.0,2024
+3153,Piloter m.fl.,Aircraft pilots and related associate professionals,Tekniker,31,2185,60900.0,2024
+3154,Flygledare,Air traffic controllers,Tekniker,31,812,88600.0,2024
+3155,Flygtekniker,Aircraft maintenance technician ,Tekniker,31,451,48900.0,2024
+3211,"Tekniker, bilddiagnostik och medicinteknisk utrustning",Medical imaging and therapeutic equipment technicians,Tekniker,32,2599,32800.0,2024
+3212,Biomedicinska analytiker m.fl.,Medical and pathology laboratory technicians,Tekniker,32,10121,38400.0,2024
+3213,Receptarier,Prescriptionists,Tekniker,32,4629,42900.0,2024
+3214,Tandtekniker och ortopedingenjörer m.fl.,Dental and orthopaedic technicians ,Tekniker,32,3521,38900.0,2024
+3215,Laboratorieingenjörer,Chemical and physical science technicians,Tekniker,32,11240,40000.0,2024
+3230,Terapeuter inom alternativmedicin,Complementary medicine therapists and associate professionals,Tekniker,32,165,,2024
+3240,Djursjukskötare m.fl.,Veterinary assistants,Tekniker,32,3029,32000.0,2024
+3250,Tandhygienister,Dental hygienists,Tekniker,32,3811,40200.0,2024
+3311,Mäklare inom finans,Finance dealers and brokers,Tekniker,33,1332,,2024
+3312,Banktjänstemän,Bank clerk,Tekniker,33,24818,42300.0,2024
+3313,Redovisningsekonomer,Accounting associate professionals,Tekniker,33,31566,42400.0,2024
+3314,Skadereglerare och värderare,Claims assessor and valuers,Tekniker,33,6979,40800.0,2024
+3321,Försäkringssäljare och försäkringsrådgivare,Insurance sellers and insurance advisers,Tekniker,33,12853,45400.0,2024
+3322,Företagssäljare,Commercial sales representatives,Tekniker,33,93819,47900.0,2024
+3323,Inköpare och upphandlare,Buyers and purchasers,Tekniker,33,23950,47200.0,2024
+3324,Ordersamordnare m.fl.,Orders coordinator,Tekniker,33,19454,38100.0,2024
+3331,Speditörer och transportmäklare,Forwarding agents and transport brokers,Tekniker,33,5480,39000.0,2024
+3332,Evenemangs- och reseproducenter m.fl.,Event and travel planners,Tekniker,33,3060,37600.0,2024
+3333,Arbetsförmedlare,Employment officers,Tekniker,33,7829,35000.0,2024
+3334,Fastighetsmäklare,Real estate agents,Tekniker,33,5827,43200.0,2024
+3335,Fastighetsförvaltare,Real estate administrators,Tekniker,33,8640,47800.0,2024
+3339,Övriga förmedlare,Business services agents not elsewhere classified,Tekniker,33,4083,37800.0,2024
+3341,Gruppledare för kontorspersonal,Office supervisors,Tekniker,33,7149,44100.0,2024
+3342,Domstols- och juristsekreterare m.fl.,Legal secretaries,Tekniker,33,3264,34000.0,2024
+3343,Chefssekreterare och VD-assistenter m.fl.,Administrative and specialized secretaries,Tekniker,33,9323,38000.0,2024
+3351,Tull- och kustbevakningstjänstemän,Customs and coast guard officers,Tekniker,33,1879,40200.0,2024
+3352,Skattehandläggare,Tax officials,Tekniker,33,3940,35700.0,2024
+3353,Socialförsäkringshandläggare,Government social benefits officials,Tekniker,33,11032,34500.0,2024
+3354,Säkerhetsinspektörer m.fl.,Safety and quality inspectors,Tekniker,33,4771,37500.0,2024
+3355,Brandingenjörer och byggnadsinspektörer m.fl.,Fire and building inspectors,Tekniker,33,4642,39500.0,2024
+3359,Övriga handläggare,Administrative secretaries and related associate professionals,Tekniker,33,23408,36700.0,2024
+3360,Poliser,Police Officers,Tekniker,33,19755,44100.0,2024
+3411,Behandlingsassistenter och socialpedagoger m.fl.,Social work associate professionals,Tekniker,34,18222,35800.0,2024
+3412,Pastorer m.fl.,Religious associate professionals,Tekniker,34,1196,,2024
+3421,Professionella idrottsutövare,Professional Athletes,Tekniker,34,3092,,2024
+3422,Idrottstränare och instruktörer m.fl.,Sports coachers and instructors,Tekniker,34,15690,31900.0,2024
+3423,Fritidsledare m.fl.,Recreation and related associate professionals,Tekniker,34,17554,31600.0,2024
+3424,Friskvårdskonsulenter och hälsopedagoger m.fl.,Wellness consultants and health educators,Tekniker,34,2297,35000.0,2024
+3431,Fotografer,Photographers,Tekniker,34,2987,,2024
+3432,"Inredare, dekoratörer och scenografer m.fl.","Interior designers and decorators, scenographers",Tekniker,34,3293,38500.0,2024
+3433,Inspicienter och scriptor m.fl.,Stage managers and related associate professionals,Tekniker,34,1143,40000.0,2024
+3439,Övriga yrken inom kultur och underhållning,Artistic and cultural associate professionals not elsewhere classified,Tekniker,34,1554,31300.0,2024
+3441,Trafiklärare,Driving instructors,Tekniker,34,1963,,2024
+3449,Övriga utbildare och instruktörer,Other teaching associate professionals,Tekniker,34,6028,,2024
+3451,Köksmästare och souschefer,Chefs and sous-chefs,Tekniker,34,3962,36600.0,2024
+3452,Storhushållsföreståndare,Catering directors,Tekniker,34,486,39300.0,2024
+3511,"Drifttekniker, IT",ICT operations technicians,Tekniker,35,12296,40000.0,2024
+3512,"Supporttekniker, IT",ICT support technicians,Tekniker,35,19292,38400.0,2024
+3513,Systemadministratörer,System administrators,Tekniker,35,4562,45300.0,2024
+3514,Nätverks- och systemtekniker m.fl.,Computer network and systems technicians,Tekniker,35,10973,48000.0,2024
+3515,Webbmaster och webbadministratörer,Webmasters and web administrators,Tekniker,35,2380,42800.0,2024
+3521,Bild- och sändningstekniker,Broadcasting and audio-visual technicians,Tekniker,35,2403,40000.0,2024
+3522,"Ljus-, ljud och scentekniker","Light, sound and stage technicians",Tekniker,35,3290,,2024
+4111,Ekonomiassistenter m.fl.,Economic assistants,Kontorspersonal,41,38294,35200.0,2024
+4112,Löne- och personaladministratörer,Payroll and personnel clerks,Kontorspersonal,41,16163,37500.0,2024
+4113,Backofficepersonal m.fl.,Back office-staff,Kontorspersonal,41,2872,36900.0,2024
+4114,Marknads- och försäljningsassistenter,Market and sales assistants,Kontorspersonal,41,11434,38000.0,2024
+4115,Inköps- och orderassistenter,Purchasing and ordering assistants,Kontorspersonal,41,7616,36600.0,2024
+4116,Skolassistenter m.fl.,School assistants,Kontorspersonal,41,5698,34400.0,2024
+4117,"Medicinska sekreterare, vårdadministratörer m.fl.",Medical secretaries and related associate professionals,Kontorspersonal,41,19384,31400.0,2024
+4119,Övriga kontorsassistenter och sekreterare,Office clerks not elsewhere classified,Kontorspersonal,41,72573,34700.0,2024
+4211,Croupierer och oddssättare m.fl.,"Croupiers, bookmakers and related workers",Kontorspersonal,42,1027,31700.0,2024
+4212,Inkasserare och pantlånare m.fl.,"Debt-collectors, pawnbrokers and related workers",Kontorspersonal,42,778,34000.0,2024
+4221,Resesäljare och trafikassistenter m.fl.,Travel agents and related clerks,Kontorspersonal,42,5410,33100.0,2024
+4222,Kundtjänstpersonal,Customer Service Information Clerks,Kontorspersonal,42,35831,31100.0,2024
+4223,Telefonister,Telephonist-switchboard operators,Kontorspersonal,42,2826,29000.0,2024
+4224,Hotellreceptionister m.fl.,Hotel receptionists,Kontorspersonal,42,12182,29900.0,2024
+4225,Kontorsreceptionister,Office receptionists,Kontorspersonal,42,14394,30300.0,2024
+4226,Marknadsundersökare och intervjuare,Survey and market research interviewers,Kontorspersonal,42,966,25400.0,2024
+4321,Arbetsledare inom lager och terminal,Warehouse and terminal supervisors,Kontorspersonal,43,7076,37800.0,2024
+4322,Lager- och terminalpersonal,Warehouse and terminal Staff,Kontorspersonal,43,104571,32100.0,2024
+4323,Transportledare och transportsamordnare,Transport coordinators,Kontorspersonal,43,11208,38900.0,2024
+4410,Biblioteks- och arkivassistenter m.fl.,Library and filing clerks,Kontorspersonal,44,3087,30100.0,2024
+4420,Brevbärare och postterminalarbetare,Postmen and postal facility workers,Kontorspersonal,44,13156,28400.0,2024
+4430,Förtroendevalda,Elected representatives,Kontorspersonal,44,5907,34400.0,2024
+5111,Kabinpersonal m.fl.,Cabin crew,Service & handel,51,1889,31000.0,2024
+5112,Tågvärdar och ombordansvariga m.fl.,"Train attendants, persons responsible on board",Service & handel,51,5163,35400.0,2024
+5113,Guider och reseledare,Travel guides,Service & handel,51,2018,29600.0,2024
+5120,Kockar och kallskänkor,Cooks and cold-buffet managers,Service & handel,51,47117,31000.0,2024
+5131,Hovmästare och servitörer,Waiters,Service & handel,51,29407,29500.0,2024
+5132,Bartendrar,Bartenders,Service & handel,51,8355,29700.0,2024
+5141,Frisörer,Hairdressers,Service & handel,51,9072,32700.0,2024
+5142,Hudterapeuter,Beauticians and related workers,Service & handel,51,1172,,2024
+5143,Massörer och massageterapeuter,Masseurs and massage therapists,Service & handel,51,1504,30000.0,2024
+5144,Fotterapeuter,Foot therapists,Service & handel,51,579,,2024
+5149,Övriga skönhets- och kroppsterapeuter,Beauty and body therapists professionals not elsewhere classified,Service & handel,51,2841,27100.0,2024
+5151,Städledare och husfruar,Cleaning supervisors and housekeepers,Service & handel,51,4358,32700.0,2024
+5152,Fastighetsskötare,Building caretakers,Service & handel,51,43364,31900.0,2024
+5161,Begravnings- och krematoriepersonal,Undertakers and embalmers,Service & handel,51,1504,33800.0,2024
+5169,Övrig servicepersonal,Personal services workers not elsewhere classified,Service & handel,51,3373,31700.0,2024
+5221,Säljande butikschefer och avdelningschefer i butik,"Shopkeepers and shop supervisors, selling in stores",Service & handel,52,15779,36000.0,2024
+5222,"Butikssäljare, dagligvaror","shop sales, groceries",Service & handel,52,103596,32400.0,2024
+5223,"Butikssäljare, fackhandel","shop sales, specialty stores",Service & handel,52,116149,32400.0,2024
+5224,Optikerassistenter,Opticians assistants,Service & handel,52,1418,,2024
+5225,Bensinstationspersonal,Petrol station personnel,Service & handel,52,6607,34200.0,2024
+5226,Uthyrare,Rental salespersons,Service & handel,52,2652,33400.0,2024
+5227,Apotekstekniker,Pharmacy technicians,Service & handel,52,3130,31700.0,2024
+5230,Kassapersonal m.fl.,Cashiers and related clerks,Service & handel,52,15655,29400.0,2024
+5241,Eventsäljare och butiksdemonstratörer m.fl.,Event salespeople and shop demonstrators,Service & handel,52,2205,,2024
+5242,Telefonförsäljare m.fl.,Telemarketers,Service & handel,52,6259,32300.0,2024
+5311,Barnskötare,Child care workers,Service & handel,53,89888,27300.0,2024
+5312,Elevassistenter m.fl.,Teachers aides,Service & handel,53,42766,28100.0,2024
+5321,"Undersköterskor, hemtjänst, hemsjukvård och äldreboende","Assistant nurses, home care and homes for the elderly",Service & handel,53,128091,32500.0,2024
+5322,"Undersköterskor, habilitering","Assistant nurses, rehabilitation",Service & handel,53,388,,2024
+5323,"Undersköterskor, vård- och specialavdelning","Assistant nurses, hospital ward",Service & handel,53,37716,33200.0,2024
+5324,"Undersköterskor, mottagning","Assistant nurses, clinic",Service & handel,53,9889,32400.0,2024
+5325,Barnsköterskor,"Assistant nurses, children",Service & handel,53,885,34800.0,2024
+5326,Ambulanssjukvårdare,Ambulance attendants,Service & handel,53,984,36900.0,2024
+5330,Vårdbiträden,Home-based personal care and related workers,Service & handel,53,92369,28200.0,2024
+5341,Skötare,Attendants,Service & handel,53,16445,33100.0,2024
+5342,"Vårdare, boendestödjare",Personal care providers,Service & handel,53,84721,32100.0,2024
+5343,Personliga assistenter,Personal assistants,Service & handel,53,71080,31200.0,2024
+5349,Övrig vård- och omsorgspersonal,Personal care workers in health services not elsewhere classified,Service & handel,53,24926,29500.0,2024
+5350,Tandsköterskor,Dental nurses,Service & handel,53,11850,32600.0,2024
+5411,Brandmän,Firefighters,Service & handel,54,5856,36400.0,2024
+5412,Kriminalvårdare,Prison guards,Service & handel,54,13206,33100.0,2024
+5413,Väktare och ordningsvakter,Security guards,Service & handel,54,20234,34000.0,2024
+5414,SOS-operatörer m.fl.,Emergency call operators,Service & handel,54,1872,33600.0,2024
+5419,Övrig bevaknings- och säkerhetspersonal,Protective services workers not elsewhere classified,Service & handel,54,4505,32400.0,2024
+6111,"Odlare av jordbruksväxter, frukt- och bär",Field crop and vegetable growers,Jordbruk,61,2481,,2024
+6112,Trädgårdsodlare,"Gardeners, cultivation",Jordbruk,61,3852,30000.0,2024
+6113,Trädgårdsanläggare m.fl.,"Gardeners, parks and grounds",Jordbruk,61,18370,29600.0,2024
+6121,Uppfödare och skötare av lantbrukets husdjur,Livestock and dairy producers,Jordbruk,61,10853,28000.0,2024
+6122,Uppfödare och skötare av sällskapsdjur,Pet breeders and keepers,Jordbruk,61,1791,,2024
+6129,Övriga djuruppfödare och djurskötare,Animal breeders and related workers not elsewhere classified,Jordbruk,61,1366,,2024
+6130,"Växtodlare och djuruppfödare, blandad drift",Mixed crop and animal breeders,Jordbruk,61,5632,26800.0,2024
+6210,Skogsarbetare,Forestry and related workers,Jordbruk,62,3786,31500.0,2024
+6221,Fiskodlare,Fish farmers,Jordbruk,62,220,,2024
+6222,Fiskare,Fishermen,Jordbruk,62,1160,,2024
+7111,"Träarbetare, snickare m.fl.","Woodworkers, carpenters",Hantverkare,71,53091,37900.0,2024
+7112,Murare m.fl.,Bricklayers and related workers,Hantverkare,71,8806,36500.0,2024
+7113,Betongarbetare,"Concrete placers, concrete finishers and related workers",Hantverkare,71,10106,37000.0,2024
+7114,Anläggningsarbetare,Rail and road construction workers,Hantverkare,71,20653,38600.0,2024
+7115,Anläggningsdykare,Construction diver,Hantverkare,71,992,,2024
+7116,Ställningsbyggare,Scaffold builders,Hantverkare,71,3875,38200.0,2024
+7119,Övriga byggnads- och anläggningsarbetare,Building frame and related trades workers not elsewhere classified,Hantverkare,71,20330,37100.0,2024
+7121,Takmontörer,Roofers,Hantverkare,71,4448,39700.0,2024
+7122,Golvläggare,Floor layers,Hantverkare,71,4338,41800.0,2024
+7123,Isoleringsmontörer,Insulation workers,Hantverkare,71,2434,,2024
+7124,Glastekniker,Glaziers,Hantverkare,71,3069,36300.0,2024
+7125,VVS-montörer m.fl.,Plumbing and central heating fitters,Hantverkare,71,25406,42100.0,2024
+7126,Kyl- och värmepumpstekniker m.fl.,Heating and air conditioning mechanics,Hantverkare,71,5000,39900.0,2024
+7131,Målare,Painters and related workers,Hantverkare,71,16017,38000.0,2024
+7132,Lackerare och industrimålare,Painters and industrial painters,Hantverkare,71,5900,32500.0,2024
+7133,Skorstensfejare,Chimney sweepers,Hantverkare,71,992,,2024
+7134,Saneringsarbetare m.fl.,Building structure cleaners and related workers,Hantverkare,71,5809,34100.0,2024
+7211,Gjutare,Metal moulders and related workers,Hantverkare,72,870,31300.0,2024
+7212,Svetsare och gasskärare,Welders and flame cutters,Hantverkare,72,13911,35300.0,2024
+7213,Byggnads- och ventilationsplåtslagare,"Sheet metal workers, building and ventilation",Hantverkare,72,6766,39700.0,2024
+7214,Tunnplåtslagare,Sheet metal workers,Hantverkare,72,3694,35400.0,2024
+7215,Stålkonstruktionsmontörer och grovplåtsslagare,Steel structure erectors and heavy plate workers,Hantverkare,72,1827,36500.0,2024
+7221,Smeder,"Blacksmiths, hammersmiths and forging press workers",Hantverkare,72,2903,36400.0,2024
+7222,Verktygsmakare,Toolmakers and related workers,Hantverkare,72,1742,35800.0,2024
+7223,"Maskinställare och maskinoperatörer, metallarbete",Machine-tool operators,Hantverkare,72,52157,34200.0,2024
+7224,Slipare m.fl.,"Metal polishers, wheel grinders and tool sharpeners",Hantverkare,72,1083,35600.0,2024
+7231,Motorfordonsmekaniker och fordonsreparatörer,Vehicle mechanics and repairers,Hantverkare,72,37288,33800.0,2024
+7232,Flygmekaniker m.fl.,Aircraft mechanics and repairers,Hantverkare,72,342,,2024
+7233,Underhållsmekaniker och maskinreparatörer,Agricultural and industrial machinery mechanics and repairers,Hantverkare,72,30002,38900.0,2024
+7311,Finmekaniker,Precision-instrument makers and repairers,Hantverkare,73,3029,,2024
+7312,Guld- och silversmeder,Jewellery and precious metal workers,Hantverkare,73,391,,2024
+7319,Musikinstrumentmakare och övriga konsthantverkare,Musical instrument makers and other handicraft workers,Hantverkare,73,823,,2024
+7321,Prepresstekniker,Pre-press technicians,Hantverkare,73,1111,33600.0,2024
+7322,Tryckare,Printers,Hantverkare,73,3466,34700.0,2024
+7323,Bokbindare m.fl.,Bookbinders and related workers,Hantverkare,73,853,32700.0,2024
+7411,Installations- och serviceelektriker,"Electricians, installation and service",Hantverkare,74,41480,37900.0,2024
+7412,Industrielektriker,Electrical mechanics and fitters,Hantverkare,74,8914,39800.0,2024
+7413,Distributionselektriker,Electrical line installers and repairers,Hantverkare,74,2343,41100.0,2024
+7420,Elektronikreparatörer och kommunikationselektriker m.fl.,Electronics repairers and telecom electricians,Hantverkare,74,9332,37500.0,2024
+7521,"Manuella ytbehandlare, trä",Wood treaters,Hantverkare,75,94,,2024
+7522,"Fin-, inrednings- och möbelsnickare",Cabinet-makers and related workers,Hantverkare,75,4781,32300.0,2024
+7523,"Maskinsnickare och maskinoperatörer, träindustri","Machine operator, Wood-products",Hantverkare,75,6189,33000.0,2024
+7531,Skräddare och ateljésömmerskor m.fl.,Tailors and related workers,Hantverkare,75,1110,29700.0,2024
+7532,Sömmare,"Sewers, embroiderer and related workers",Hantverkare,75,423,,2024
+7533,Tapetserare,Upholsterers and related workers,Hantverkare,75,439,30200.0,2024
+7534,Läderhantverkare och skomakare,"Leather craft workers, shoemakers and related workers",Hantverkare,75,426,32800.0,2024
+7611,Slaktare och styckare m.fl.,"Butchers, fishmongers and related food preparers",Hantverkare,76,3272,32100.0,2024
+7612,Bagare och konditorer,"Bakers, pastry-cooks and confectionery makers",Hantverkare,76,4809,29200.0,2024
+7613,Provsmakare och kvalitetsbedömare,Food and beverage tasters and graders,Hantverkare,76,156,,2024
+7619,Övriga livsmedelsförädlare,Other food processors,Hantverkare,76,986,34700.0,2024
+8111,Gruv- och stenbrottsarbetare,Miners and quarries workers,Maskinoperatörer,81,1492,49100.0,2024
+8112,"Processoperatörer, stenkross- och malmförädlingsanläggning",Mineral and stone processing plant operators,Maskinoperatörer,81,2713,48300.0,2024
+8113,Brunnsborrare m.fl.,Well drillers and borers and related workers,Maskinoperatörer,81,1992,45200.0,2024
+8114,"Maskinoperatörer, cement-, sten- och betongvaror","Machine operator, cement, stone and other mineral products",Maskinoperatörer,81,2301,34500.0,2024
+8115,Bergssprängare,Shot firers and blasters,Maskinoperatörer,81,1400,42600.0,2024
+8116,Stenhuggare m.fl.,"Stonemasons, stone cutters, splitters and carvers",Maskinoperatörer,81,713,,2024
+8121,"Maskinoperatörer, ytbehandling","Machine operators, metal finishing, plating and coating ",Maskinoperatörer,81,2861,34100.0,2024
+8122,Valsverksoperatörer,Metal melter and rolling-mill operators,Maskinoperatörer,81,4145,39400.0,2024
+8129,Övriga maskin- och processoperatörer vid stål- och metallverk,Metal processing plant operators not elsewhere classified,Maskinoperatörer,81,11068,39600.0,2024
+8131,"Maskinoperatörer, farmaceutiska produkter","Machine operators, pharmaceutical products ",Maskinoperatörer,81,4399,36300.0,2024
+8132,"Maskinoperatörer, kemisktekniska och fotografiska produkter","Machine operators, chemical and photographic products ",Maskinoperatörer,81,1860,36800.0,2024
+8141,"Maskinoperatörer, gummiindustri","Machine operators, rubber products ",Maskinoperatörer,81,1802,32000.0,2024
+8142,"Maskinoperatörer, plastindustri","Machine operators, plastic products ",Maskinoperatörer,81,8778,32700.0,2024
+8143,"Maskinoperatörer, pappersvaruindustri","Machine operators, paper products ",Maskinoperatörer,81,3614,35200.0,2024
+8151,"Maskinoperatörer, blekning, färgning och tvättning","Machine operators, bleaching, dyeing and cleaning ",Maskinoperatörer,81,3325,27700.0,2024
+8159,"Övriga maskinoperatörer, textil-, skinn- och läderindustri","Machine operators not elsewhere classified, textile, fur and leather products",Maskinoperatörer,81,2580,30100.0,2024
+8161,"Maskinoperatörer, kött- och fiskberedningsindustri","Machine operators, meat- and fish-processing ",Maskinoperatörer,81,4378,30300.0,2024
+8162,"Maskinoperatörer, mejeri","Machine operators, dairy-products ",Maskinoperatörer,81,1401,35200.0,2024
+8163,"Maskinoperatörer, kvarn-, bageri- och konfektyrindustri","Machine operators, baked-goods, cereal and chocolate-products ",Maskinoperatörer,81,4381,,2024
+8169,Övriga maskinoperatörer inom livsmedelsindustri m.m.,"Machine operators not elsewhere classified, food and related products ",Maskinoperatörer,81,6965,31600.0,2024
+8171,"Processoperatörer, pappersmassa",Paper pulp plant operators,Maskinoperatörer,81,2352,43600.0,2024
+8172,"Processoperatörer, papper",Papermaking plant operators,Maskinoperatörer,81,5308,41000.0,2024
+8173,"Operatörer inom sågverk, hyvleri och plywood m.m.","Wood processing, sawmill and plywood plant operators",Maskinoperatörer,81,7468,36200.0,2024
+8174,"Maskinoperatörer inom ytbehandling, trä","Machine operators, wood treaters ",Maskinoperatörer,81,518,33300.0,2024
+8181,"Maskinoperatörer, påfyllning, packning och märkning","Machine operators, packing, bottling and labelling",Maskinoperatörer,81,4663,32400.0,2024
+8189,Andra process- och maskinoperatörer,"Machine operators not elsewhere classified, stationary plant and ",Maskinoperatörer,81,3384,36600.0,2024
+8191,Drifttekniker vid värme- och vattenverk,Power production and water treatment plant operators,Maskinoperatörer,81,10910,37700.0,2024
+8192,"Processövervakare, kemisk industri",Chemical processing plant controllers,Maskinoperatörer,81,6623,39500.0,2024
+8193,"Processövervakare, metallproduktion",Metal production process controllers,Maskinoperatörer,81,1840,39200.0,2024
+8199,Övriga drifttekniker och processövervakare,Process control technicians not elsewhere classified,Maskinoperatörer,81,2825,40800.0,2024
+8211,Fordonsmontörer,Mechanical machinery assemblers,Maskinoperatörer,82,6950,33000.0,2024
+8212,"Montörer, elektrisk och elektronisk utrustning",Electrical and electronic equipment assemblers,Maskinoperatörer,82,14989,32200.0,2024
+8213,"Montörer, metall-, gummi- och plastprodukter","Metal-, rubber- and plastic-products assemblers",Maskinoperatörer,82,16353,32000.0,2024
+8214,"Montörer, träprodukter",Wood and related products assemblers,Maskinoperatörer,82,4334,33300.0,2024
+8219,Övriga montörer,Assemblers not elsewhere classified,Maskinoperatörer,82,15665,36100.0,2024
+8311,Lokförare,Train operator,Maskinoperatörer,83,5528,43500.0,2024
+8312,Bangårdspersonal,"Railway, signal and switch operators",Maskinoperatörer,83,954,38100.0,2024
+8321,Taxiförare m.fl.,"Taxi, car, and van drivers",Maskinoperatörer,83,14324,28100.0,2024
+8329,"Övriga bil-, motorcykel- och cykelförare","Motorcycle, bicycle drivers and other automobile drivers not elsewhere classified",Maskinoperatörer,83,16409,29500.0,2024
+8331,Buss- och spårvagnsförare,Bus and tram drivers,Maskinoperatörer,83,24777,32300.0,2024
+8332,Lastbilsförare m.fl.,Heavy truck and lorry drivers,Maskinoperatörer,83,61570,32800.0,2024
+8341,Förare av jordbruks- och skogsmaskiner,Forestry and agricultural machinery operators,Maskinoperatörer,83,8017,32600.0,2024
+8342,Anläggningsmaskinförare m.fl.,Heavy Equipment Operators,Maskinoperatörer,83,24728,34800.0,2024
+8343,Kranförare m.fl.,"Crane, hoist and related plant operators",Maskinoperatörer,83,1593,35700.0,2024
+8344,Truckförare,Fork-lift drivers,Maskinoperatörer,83,11805,35400.0,2024
+8350,Matroser och jungmän m.fl.,Ships deck crews and related workers,Maskinoperatörer,83,1803,36700.0,2024
+9111,Städare,"Cleaners and helpers in offices, hotels and other establishments",Basyrken,91,93173,27400.0,2024
+9119,Övrig hemservicepersonal m.fl.,"Maid, nanny and related workers",Basyrken,91,8038,23900.0,2024
+9120,"Bilrekonditionerare, fönsterputsare och övriga rengöringsarbetare","Car reconditioning labourers, window cleaners and other hand cleaning workers",Basyrken,91,7718,28800.0,2024
+9210,Bärplockare och plantörer m.fl.,Berry pickers and planters,Basyrken,92,5480,26700.0,2024
+9310,Grovarbetare inom bygg och anläggning,Construction labourers,Basyrken,93,7488,36200.0,2024
+9320,Handpaketerare och andra fabriksarbetare,Manufacturing labourers,Basyrken,93,9251,30200.0,2024
+9331,Hamnarbetare,Dock labourers,Basyrken,93,2776,39000.0,2024
+9332,"Ramppersonal, flyttkarlar och varupåfyllare m.fl.","Ground personnel, movers and stockers",Basyrken,93,6941,32500.0,2024
+9411,Pizzabagare m.fl.,Pizza makers and fast food preparers,Basyrken,94,6287,,2024
+9412,Restaurang- och köksbiträden m.fl.,Restaurant and kitchen helpers,Basyrken,94,89662,27800.0,2024
+9413,Kafé- och konditoribiträden,Café and confectionery assistants,Basyrken,94,11628,25800.0,2024
+9520,Torg- och marknadsförsäljare,Street and market vendors,Basyrken,95,295,,2024
+9610,Renhållnings- och återvinningsarbetare,Recycling collectors,Basyrken,96,10744,32300.0,2024
+9621,Reklamutdelare och tidningsdistributörer,Leaflet and newspaper distributors,Basyrken,96,5735,33900.0,2024
+9622,Vaktmästare m.fl.,Janitors and related workers,Basyrken,96,6541,30300.0,2024
+9629,Övriga servicearbetare,Other service workers not elsewhere classified,Basyrken,96,30744,26200.0,2024
