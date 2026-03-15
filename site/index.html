@@ -101,13 +101,20 @@
     min-width: 30px;
     font-variant-numeric: tabular-nums;
   }
-  .controls select {
+  .controls select, .controls .search-input {
     background: var(--surface);
     color: var(--text);
     border: 1px solid var(--border);
     padding: 6px 10px;
     border-radius: 6px;
     font-size: 13px;
+  }
+  .controls .search-input { width: 180px; }
+  .controls .search-input::placeholder { color: var(--text-dim); }
+  .search-count {
+    font-size: 11px;
+    color: var(--text-dim);
+    min-width: 60px;
   }
 
   /* Legend */
@@ -218,6 +225,8 @@
 </header>
 
 <div class="controls">
+  <input type="text" id="search" class="search-input" placeholder="Sök yrke...">
+  <span class="search-count" id="search-count"></span>
   <label>Minsta poäng:</label>
   <div class="slider-wrap">
     <input type="range" id="min-score" min="0" max="10" step="0.5" value="0">
@@ -267,6 +276,8 @@
   const minVal = document.getElementById('min-score-val');
   const maxVal = document.getElementById('max-score-val');
   const groupSelect = document.getElementById('group-by');
+  const searchInput = document.getElementById('search');
+  const searchCount = document.getElementById('search-count');
 
   function fmt(n) {
     return n != null ? n.toLocaleString('sv-SE') : '—';
@@ -291,6 +302,7 @@
     const minScore = parseFloat(minSlider.value);
     const maxScore = parseFloat(maxSlider.value);
     const groupBy = groupSelect.value;
+    const searchTerm = searchInput.value.trim().toLowerCase();
 
     minVal.textContent = minScore;
     maxVal.textContent = maxScore;
@@ -301,6 +313,18 @@
     );
 
     updateKPIs(filtered);
+
+    const isSearching = searchTerm.length > 0;
+    const matchesSearch = d => !isSearching ||
+      d.name.toLowerCase().includes(searchTerm) ||
+      (d.name_en && d.name_en.toLowerCase().includes(searchTerm));
+
+    if (isSearching) {
+      const matchCount = filtered.filter(matchesSearch).length;
+      searchCount.textContent = `${matchCount} träffar`;
+    } else {
+      searchCount.textContent = '';
+    }
 
     // Build hierarchy
     const grouped = d3.group(filtered, d => d[groupBy]);
@@ -365,8 +389,9 @@
       .attr('height', d => Math.max(0, d.y1 - d.y0))
       .attr('fill', d => colorScale(d.data.score))
       .attr('rx', 2)
-      .attr('stroke', 'rgba(0,0,0,0.2)')
-      .attr('stroke-width', 0.5)
+      .attr('stroke', d => isSearching && matchesSearch(d.data) ? '#fff' : 'rgba(0,0,0,0.2)')
+      .attr('stroke-width', d => isSearching && matchesSearch(d.data) ? 2 : 0.5)
+      .style('opacity', d => isSearching && !matchesSearch(d.data) ? 0.15 : 1)
       .style('cursor', 'pointer')
       .on('mousemove', (e, d) => showTooltip(e, d.data))
       .on('mouseleave', hideTooltip);
@@ -408,7 +433,7 @@
       <div class="tt-row"><span class="tt-label">Sysselsatta</span><span class="tt-val">${fmt(d.employment)}</span></div>
       <div class="tt-row"><span class="tt-label">Medianlön</span><span class="tt-val">${d.salary_display || '—'}</span></div>
       <div class="tt-row"><span class="tt-label">Yrkesgrupp</span><span class="tt-val">${d.category}</span></div>
-      ${d.rationale ? `<div class="tt-rationale">${d.rationale}</div>` : ''}
+      ${d.rationale ? `<div class="tt-rationale"><strong>Motivering:</strong> ${d.rationale}</div>` : ''}
     `;
     tooltip.classList.add('visible');
     positionTooltip(event);
@@ -431,6 +456,7 @@
   }
 
   // Bind controls
+  searchInput.addEventListener('input', render);
   minSlider.addEventListener('input', render);
   maxSlider.addEventListener('input', render);
   groupSelect.addEventListener('change', render);

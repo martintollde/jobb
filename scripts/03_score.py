@@ -36,7 +36,7 @@ Description: {description}
 SSYK code: {ssyk_code}
 
 Respond with JSON only:
-{{"score": <number 0-10, one decimal>, "rationale": "<2 sentences in English explaining the score>"}}"""
+{{"score": <number 0-10, one decimal>, "rationale": "<2 meningar på svenska som förklarar poängen>"}}"""
 
 
 def load_existing_scores() -> dict:
