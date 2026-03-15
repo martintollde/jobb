@@ -3,16 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Interaktiv karta över svenska yrken poängsatta för AI-exponering. Hur mycket kommer AI att förändra ditt jobb?">
+<meta property="og:title" content="AI-exponering på den svenska arbetsmarknaden">
+<meta property="og:description" content="312 yrken poängsatta 0–10 för AI-exponering. Storlek = sysselsatta, färg = exponering. Data: SCB 2024.">
 <title>AI-exponering på den svenska arbetsmarknaden</title>
 <style>
   :root {
     --bg: #0f172a;
     --surface: #1e293b;
-    --surface-alt: #334155;
     --border: rgba(255,255,255,0.08);
     --text: #f1f5f9;
     --text-dim: #94a3b8;
     --accent: #2dd4bf;
+    --sidebar-w: 300px;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
@@ -20,129 +23,231 @@
     color: var(--text);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
     min-height: 100vh;
+    display: flex;
   }
 
-  /* Header */
-  header {
-    padding: 32px 24px 16px;
-    max-width: 1400px;
-    margin: 0 auto;
+  /* Sidebar */
+  .sidebar {
+    width: var(--sidebar-w);
+    min-width: var(--sidebar-w);
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    padding: 24px 20px;
+    overflow-y: auto;
+    height: 100vh;
+    position: sticky;
+    top: 0;
   }
-  header h1 {
-    font-size: 28px;
+  .sidebar h1 {
+    font-size: 18px;
     font-weight: 700;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.3px;
+    line-height: 1.3;
     margin-bottom: 4px;
   }
-  header h1 span { color: var(--accent); }
-  header .subtitle {
-    font-size: 14px;
+  .sidebar h1 span { color: var(--accent); }
+  .sidebar .desc {
+    font-size: 12px;
     color: var(--text-dim);
+    line-height: 1.5;
     margin-bottom: 20px;
   }
-  header .subtitle a {
+  .sidebar .desc a {
     color: var(--accent);
     text-decoration: none;
   }
 
-  /* KPI bar */
-  .kpi-bar {
-    display: flex;
-    gap: 24px;
-    flex-wrap: wrap;
-    margin-bottom: 16px;
+  /* Sidebar sections */
+  .sb-section {
+    margin-bottom: 20px;
   }
-  .kpi-item {
-    display: flex;
-    align-items: baseline;
-    gap: 6px;
+  .sb-section-title {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
   }
-  .kpi-item .val {
-    font-size: 22px;
+
+  /* KPI rows */
+  .sb-kpi {
+    margin-bottom: 12px;
+  }
+  .sb-kpi .kpi-val {
+    font-size: 28px;
     font-weight: 700;
     font-variant-numeric: tabular-nums;
     color: var(--accent);
+    line-height: 1;
   }
-  .kpi-item .lbl {
-    font-size: 12px;
+  .sb-kpi .kpi-label {
+    font-size: 11px;
     color: var(--text-dim);
-    text-transform: uppercase;
-    letter-spacing: 0.3px;
+    margin-top: 2px;
   }
 
-  /* Controls */
-  .controls {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    flex-wrap: wrap;
-    padding: 0 24px 12px;
-    max-width: 1400px;
-    margin: 0 auto;
-  }
-  .controls label {
-    font-size: 12px;
-    color: var(--text-dim);
-    text-transform: uppercase;
-    letter-spacing: 0.3px;
-  }
-  .slider-wrap {
+  /* Breakdown rows */
+  .breakdown-row {
     display: flex;
     align-items: center;
     gap: 8px;
+    margin-bottom: 4px;
+    font-size: 12px;
   }
-  .slider-wrap input[type="range"] {
-    width: 160px;
-    accent-color: var(--accent);
+  .breakdown-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    flex-shrink: 0;
   }
-  .slider-val {
-    font-size: 14px;
-    font-weight: 600;
-    min-width: 30px;
-    font-variant-numeric: tabular-nums;
-  }
-  .controls select, .controls .search-input {
-    background: var(--surface);
-    color: var(--text);
-    border: 1px solid var(--border);
-    padding: 6px 10px;
-    border-radius: 6px;
-    font-size: 13px;
-  }
-  .controls .search-input { width: 180px; }
-  .controls .search-input::placeholder { color: var(--text-dim); }
-  .search-count {
-    font-size: 11px;
+  .breakdown-name {
     color: var(--text-dim);
-    min-width: 60px;
+    flex: 1;
+  }
+  .breakdown-emp {
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    text-align: right;
+    min-width: 55px;
+  }
+  .breakdown-pct {
+    font-variant-numeric: tabular-nums;
+    color: var(--text-dim);
+    min-width: 30px;
+    text-align: right;
+  }
+
+  /* Salary rows */
+  .salary-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 4px;
+    font-size: 12px;
+  }
+  .salary-range {
+    color: var(--text-dim);
+    min-width: 90px;
+  }
+  .salary-bar-track {
+    flex: 1;
+    height: 8px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .salary-bar-fill {
+    height: 100%;
+    border-radius: 3px;
+  }
+  .salary-val {
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    min-width: 24px;
+    text-align: right;
   }
 
   /* Legend */
   .legend {
     display: flex;
     align-items: center;
-    gap: 4px;
-    margin-left: auto;
+    gap: 6px;
+    margin-top: 4px;
   }
   .legend-bar {
-    width: 120px;
-    height: 12px;
+    flex: 1;
+    height: 10px;
     border-radius: 3px;
     background: linear-gradient(to right, #22c55e, #eab308, #ef4444);
   }
   .legend span {
-    font-size: 11px;
+    font-size: 10px;
     color: var(--text-dim);
+    white-space: nowrap;
   }
 
-  /* Treemap container */
+  /* Controls */
+  .sb-control {
+    margin-bottom: 10px;
+  }
+  .sb-control label {
+    display: block;
+    font-size: 10px;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+  }
+  .sb-control input[type="text"] {
+    width: 100%;
+    background: var(--bg);
+    color: var(--text);
+    border: 1px solid var(--border);
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+  }
+  .sb-control input[type="text"]::placeholder { color: var(--text-dim); }
+  .search-count {
+    font-size: 10px;
+    color: var(--text-dim);
+    margin-top: 2px;
+  }
+  .sb-control select {
+    width: 100%;
+    background: var(--bg);
+    color: var(--text);
+    border: 1px solid var(--border);
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+  }
+  .slider-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .slider-row input[type="range"] {
+    flex: 1;
+    accent-color: var(--accent);
+  }
+  .slider-row .slider-val {
+    font-size: 13px;
+    font-weight: 600;
+    min-width: 24px;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Footer links */
+  .sb-links {
+    font-size: 11px;
+    color: var(--text-dim);
+    line-height: 1.8;
+    border-top: 1px solid var(--border);
+    padding-top: 12px;
+    margin-top: 8px;
+  }
+  .sb-links a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  /* Main area */
+  .main {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+  }
   #treemap {
-    padding: 0 24px 24px;
-    max-width: 1400px;
-    margin: 0 auto;
+    flex: 1;
+    padding: 8px;
+    min-height: 0;
   }
   #treemap svg {
-    border-radius: 8px;
+    border-radius: 6px;
     overflow: hidden;
   }
 
@@ -185,8 +290,6 @@
     pointer-events: none;
     text-shadow: 0 1px 2px rgba(0,0,0,0.5);
   }
-
-  /* Group labels */
   .group-label {
     fill: rgba(255,255,255,0.3);
     font-size: 13px;
@@ -196,65 +299,114 @@
     pointer-events: none;
   }
 
-  /* Footer */
-  footer {
-    text-align: center;
-    padding: 24px;
-    font-size: 12px;
-    color: var(--text-dim);
+  /* Mobile */
+  @media (max-width: 768px) {
+    body { flex-direction: column; }
+    .sidebar {
+      width: 100%;
+      min-width: 100%;
+      height: auto;
+      position: static;
+      border-right: none;
+      border-bottom: 1px solid var(--border);
+    }
+    #treemap { min-height: 500px; }
   }
-  footer a { color: var(--accent); text-decoration: none; }
 </style>
 </head>
 <body>
 
-<header>
+<aside class="sidebar">
   <h1>AI-exponering på den <span>svenska</span> arbetsmarknaden</h1>
-  <p class="subtitle">
-    429 yrken (SSYK 2012) poängsatta 0–10 för AI-exponering.
-    Storlek = antal sysselsatta. Färg = AI-exponering.
-    Inspirerad av <a href="https://karpathy.ai/jobs/" target="_blank">karpathy/jobs</a>.
-    Data: SCB 2024. Poäng: Claude.
+  <p class="desc">
+    312 yrken (SSYK 2012) poängsatta 0&ndash;10 &middot; färg = AI-exponering<br>
+    Data: <a href="https://www.scb.se" target="_blank">SCB</a> 2024, poängsatt av <a href="https://www.anthropic.com" target="_blank">Claude</a><br>
+    <a href="https://github.com/martintollde/jobb" target="_blank">GitHub</a>
+    &middot; Inspirerad av <a href="https://karpathy.ai/jobs/" target="_blank">karpathy/jobs</a>
   </p>
-  <div class="kpi-bar">
-    <div class="kpi-item"><span class="val" id="kpi-occs">—</span><span class="lbl">yrken</span></div>
-    <div class="kpi-item"><span class="val" id="kpi-emp">—</span><span class="lbl">sysselsatta</span></div>
-    <div class="kpi-item"><span class="val" id="kpi-avg">—</span><span class="lbl">viktat snitt</span></div>
-    <div class="kpi-item"><span class="val" id="kpi-high">—</span><span class="lbl">hög exponering (≥7)</span></div>
-  </div>
-</header>
 
-<div class="controls">
-  <input type="text" id="search" class="search-input" placeholder="Sök yrke...">
-  <span class="search-count" id="search-count"></span>
-  <label>Minsta poäng:</label>
-  <div class="slider-wrap">
-    <input type="range" id="min-score" min="0" max="10" step="0.5" value="0">
-    <span class="slider-val" id="min-score-val">0</span>
+  <!-- KPIs -->
+  <div class="sb-section">
+    <div class="sb-kpi">
+      <div class="kpi-val" id="kpi-emp">&mdash;</div>
+      <div class="kpi-label">sysselsatta totalt</div>
+    </div>
+    <div class="sb-kpi">
+      <div class="kpi-val" id="kpi-avg">&mdash;</div>
+      <div class="kpi-label">viktat snitt, 0&ndash;10 skala</div>
+    </div>
   </div>
-  <label>Högsta poäng:</label>
-  <div class="slider-wrap">
-    <input type="range" id="max-score" min="0" max="10" step="0.5" value="10">
-    <span class="slider-val" id="max-score-val">10</span>
+
+  <!-- Breakdown -->
+  <div class="sb-section">
+    <div class="sb-section-title">Sysselsatta per exponeringsnivå</div>
+    <div id="breakdown"></div>
   </div>
-  <label>Gruppera:</label>
-  <select id="group-by">
-    <option value="category">Yrkesgrupp (1-siffra)</option>
-    <option value="category_2digit">Yrkesgrupp (2-siffra)</option>
-  </select>
-  <div class="legend">
-    <span>0 Låg</span>
-    <div class="legend-bar"></div>
-    <span>10 Hög</span>
+
+  <!-- Exposure by salary -->
+  <div class="sb-section">
+    <div class="sb-section-title">Exponering per lön</div>
+    <div id="salary-breakdown"></div>
   </div>
+
+  <!-- Wages exposed -->
+  <div class="sb-section">
+    <div class="sb-kpi">
+      <div class="kpi-val" id="kpi-wages">&mdash;</div>
+      <div class="kpi-label">i årslöner i högexponerade yrken (7+)</div>
+    </div>
+  </div>
+
+  <!-- Legend -->
+  <div class="sb-section">
+    <div class="legend">
+      <span>0 Låg</span>
+      <div class="legend-bar"></div>
+      <span>10 Hög</span>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <div class="sb-section">
+    <div class="sb-section-title">Filter</div>
+    <div class="sb-control">
+      <label>Sök yrke</label>
+      <input type="text" id="search" placeholder="Sök yrke...">
+      <div class="search-count" id="search-count"></div>
+    </div>
+    <div class="sb-control">
+      <label>Minsta poäng</label>
+      <div class="slider-row">
+        <input type="range" id="min-score" min="0" max="10" step="0.5" value="0">
+        <span class="slider-val" id="min-score-val">0</span>
+      </div>
+    </div>
+    <div class="sb-control">
+      <label>Högsta poäng</label>
+      <div class="slider-row">
+        <input type="range" id="max-score" min="0" max="10" step="0.5" value="10">
+        <span class="slider-val" id="max-score-val">10</span>
+      </div>
+    </div>
+    <div class="sb-control">
+      <label>Gruppera</label>
+      <select id="group-by">
+        <option value="category">Yrkesgrupp (1-siffra)</option>
+        <option value="category_2digit">Yrkesgrupp (2-siffra)</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="sb-links">
+    Data: <a href="https://www.scb.se" target="_blank">SCB</a> (CC0)<br>
+    AI-poäng: <a href="https://www.anthropic.com" target="_blank">Claude</a> (Anthropic)<br>
+    <a href="https://github.com/martintollde/jobb" target="_blank">Källkod på GitHub</a>
+  </div>
+</aside>
+
+<div class="main">
+  <div id="treemap"></div>
 </div>
-
-<div id="treemap"></div>
-
-<footer>
-  Data: <a href="https://www.scb.se" target="_blank">SCB</a> (CC0) · AI-poäng: Claude (Anthropic) ·
-  <a href="https://github.com/martintollde/swedish-jobs" target="_blank">GitHub</a>
-</footer>
 
 <div class="tooltip" id="tooltip"></div>
 
@@ -263,7 +415,6 @@
 (async function() {
   const data = await d3.json('data.json');
 
-  // Color scale: 0=green, 5=yellow, 10=red
   const colorScale = d3.scaleLinear()
     .domain([0, 3, 5, 7, 10])
     .range(['#22c55e', '#84cc16', '#eab308', '#f97316', '#ef4444'])
@@ -283,19 +434,77 @@
     return n != null ? n.toLocaleString('sv-SE') : '—';
   }
 
-  function updateKPIs(filtered) {
+  function fmtM(n) {
+    if (n >= 1e9) return (n / 1e9).toFixed(1).replace('.', ',') + ' mdr';
+    if (n >= 1e6) return (n / 1e6).toFixed(1).replace('.', ',') + ' mn';
+    if (n >= 1e3) return (n / 1e3).toFixed(0) + ' k';
+    return n.toFixed(0);
+  }
+
+  const LEVELS = [
+    { name: 'Minimal (0–1)', min: 0, max: 1.99, color: '#22c55e' },
+    { name: 'Låg (2–3)', min: 2, max: 3.99, color: '#84cc16' },
+    { name: 'Medel (4–5)', min: 4, max: 5.99, color: '#eab308' },
+    { name: 'Hög (6–7)', min: 6, max: 7.99, color: '#f97316' },
+    { name: 'Mycket hög (8–10)', min: 8, max: 10, color: '#ef4444' },
+  ];
+
+  const SALARY_BRACKETS = [
+    { label: '<25 000', min: 0, max: 24999 },
+    { label: '25–30 k', min: 25000, max: 29999 },
+    { label: '30–35 k', min: 30000, max: 34999 },
+    { label: '35–45 k', min: 35000, max: 44999 },
+    { label: '45 k+', min: 45000, max: Infinity },
+  ];
+
+  function updateSidebar(filtered) {
     const withEmp = filtered.filter(d => d.employment);
     const totalEmp = d3.sum(withEmp, d => d.employment);
     const weightedAvg = totalEmp > 0
       ? d3.sum(withEmp, d => d.score * d.employment) / totalEmp
       : 0;
-    const highExp = d3.sum(withEmp.filter(d => d.score >= 7), d => d.employment);
 
-    document.getElementById('kpi-occs').textContent = fmt(filtered.length);
     document.getElementById('kpi-emp').textContent = fmt(totalEmp);
     document.getElementById('kpi-avg').textContent = weightedAvg.toFixed(1);
-    document.getElementById('kpi-high').textContent =
-      totalEmp > 0 ? `${fmt(highExp)} (${(100 * highExp / totalEmp).toFixed(0)}%)` : '—';
+
+    // Breakdown by level
+    const breakdownEl = document.getElementById('breakdown');
+    breakdownEl.innerHTML = LEVELS.map(lv => {
+      const emp = d3.sum(withEmp.filter(d => d.score >= lv.min && d.score <= lv.max), d => d.employment);
+      const pct = totalEmp > 0 ? (100 * emp / totalEmp).toFixed(0) : 0;
+      return `<div class="breakdown-row">
+        <div class="breakdown-dot" style="background:${lv.color}"></div>
+        <span class="breakdown-name">${lv.name}</span>
+        <span class="breakdown-emp">${fmtM(emp)}</span>
+        <span class="breakdown-pct">${pct}%</span>
+      </div>`;
+    }).join('');
+
+    // Salary breakdown
+    const salaryEl = document.getElementById('salary-breakdown');
+    const salaryData = SALARY_BRACKETS.map(br => {
+      const inBracket = withEmp.filter(d => d.salary_median && d.salary_median >= br.min && d.salary_median <= br.max);
+      const emp = d3.sum(inBracket, d => d.employment);
+      const avg = emp > 0 ? d3.sum(inBracket, d => d.score * d.employment) / emp : 0;
+      return { ...br, avg, emp };
+    }).filter(d => d.emp > 0);
+
+    salaryEl.innerHTML = salaryData.map(d => {
+      const pct = (d.avg / 10 * 100).toFixed(0);
+      const color = colorScale(d.avg);
+      return `<div class="salary-row">
+        <span class="salary-range">${d.label}</span>
+        <div class="salary-bar-track">
+          <div class="salary-bar-fill" style="width:${pct}%;background:${color}"></div>
+        </div>
+        <span class="salary-val" style="color:${color}">${d.avg.toFixed(1)}</span>
+      </div>`;
+    }).join('');
+
+    // Wages exposed (annual: median monthly * 12 * employment, for score >= 7)
+    const highExp = withEmp.filter(d => d.score >= 7 && d.salary_median);
+    const totalWages = d3.sum(highExp, d => d.salary_median * 12 * d.employment);
+    document.getElementById('kpi-wages').textContent = fmtM(totalWages) + ' kr';
   }
 
   function render() {
@@ -312,7 +521,7 @@
       d.score >= minScore && d.score <= maxScore
     );
 
-    updateKPIs(filtered);
+    updateSidebar(filtered);
 
     const isSearching = searchTerm.length > 0;
     const matchesSearch = d => !isSearching ||
@@ -339,7 +548,7 @@
       .sort((a, b) => b.value - a.value);
 
     const width = container.clientWidth;
-    const height = Math.max(500, Math.min(window.innerHeight - 280, 700));
+    const height = container.clientHeight || Math.max(500, window.innerHeight - 16);
 
     d3.treemap()
       .size([width, height])
@@ -370,7 +579,6 @@
       .attr('fill', 'rgba(255,255,255,0.03)')
       .attr('rx', 4);
 
-    // Group labels
     groups.append('text')
       .attr('class', 'group-label')
       .attr('x', d => d.x0 + 6)
@@ -396,7 +604,6 @@
       .on('mousemove', (e, d) => showTooltip(e, d.data))
       .on('mouseleave', hideTooltip);
 
-    // Labels (only if rect is big enough)
     leaves.each(function(d) {
       const w = d.x1 - d.x0;
       const h = d.y1 - d.y0;
@@ -455,7 +662,6 @@
     tooltip.classList.remove('visible');
   }
 
-  // Bind controls
   searchInput.addEventListener('input', render);
   minSlider.addEventListener('input', render);
   maxSlider.addEventListener('input', render);
