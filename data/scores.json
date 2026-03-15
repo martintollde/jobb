@@ -1246,5 +1246,473 @@
   "6122": {
     "score": 1.5,
     "rationale": "Arbetet som uppfödare och skötare av sällskapsdjur är till övervägande del fysiskt och kräver direkt kontakt med djuren för matning, tvättning, städning och daglig vård – uppgifter som AI inte kan automatisera. De begränsade digitala inslagen, som journalföring och kundkommunikation, kan visserligen effektiviseras med AI, men det förändrar inte yrkets grundläggande karaktär nämnvärt."
+  },
+  "6129": {
+    "score": 1.8,
+    "rationale": "Arbetet med djurskötsel är utpräglat fysiskt och kräver direkt hantering av djur, rengöring av utrymmen och personlig närvaro på plats – uppgifter som AI inte kan automatisera. Den digitala komponenten är minimal och begränsad till enkel journalföring, vilket ger ett mycket lågt AI-exponeringsindex."
+  },
+  "6130": {
+    "score": 2.8,
+    "rationale": "Arbetet är till övervägande del fysiskt och utomhusbaserat med hantering av maskiner, grödor och djur, vilket ger ett starkt naturligt skydd mot direkt AI-automatisering. Digitala verktyg och precision agriculture ökar visserligen AI:s roll i planering och övervakning, men kärnarbetet kräver fysisk närvaro och manuell skicklighet som AI inte kan ersätta inom överskådlig framtid."
+  },
+  "6210": {
+    "score": 1.8,
+    "rationale": "Skogsarbete är ett utpräglat fysiskt yrke som utförs utomhus i varierande och oförutsägbara miljöer, vilket gör direkt AI-automatisering mycket begränsad inom överskådlig framtid. Moderna skördarmaskiner använder viss digital teknik, men kärnarbetet kräver manuell skicklighet, fysisk närvaro och situationsanpassad bedömning i terräng som är svår att automatisera."
+  },
+  "6221": {
+    "score": 2.8,
+    "rationale": "Fiskodling är ett utpräglat fysiskt yrke med arbete utomhus i krävande miljöer, vilket ger ett naturligt skydd mot AI-automatisering. Vissa delar som övervakning av vattenkvalitet, utfodringsautomation och produktionsregistrering kan effektiviseras med AI och sensorteknik, men kärnan i arbetet – hantering av fiskar, underhåll av utrustning och sjukdomsbehandling – kräver manuell närvaro och fysisk skicklighet."
+  },
+  "6222": {
+    "score": 1.5,
+    "rationale": "Fiskare utför tungt fysiskt arbete till havs i oförutsägbara miljöer, vilket utgör en stark naturlig barriär mot AI-automatisering. Det digitala inslaget är minimalt och begränsat till navigation och rapportering, medan kärnuppgifterna – hantering av redskap, fångst och underhåll av båtar – kräver fysisk närvaro och manuell skicklighet som AI inte kan ersätta."
+  },
+  "7111": {
+    "score": 2.1,
+    "rationale": "Snickeri och träarbete är till övervägande del fysiskt hantverk som kräver manuell skicklighet, rumslig bedömning och arbete på plats – egenskaper som AI inte kan automatisera direkt. Viss indirekt påverkan finns genom AI-assisterade ritverktyg och optimerad materialplanering, men kärnarbetet förblir skyddat av sin fysiska natur."
+  },
+  "7112": {
+    "score": 1.5,
+    "rationale": "Murare utför utpräglat fysiskt hantverk på byggarbetsplatser med material och verktyg som kräver manuell skicklighet och kroppslig närvaro – arbete som AI inte kan automatisera direkt. Digitala inslag är minimala och begränsas till ritningsläsning och tidsrapportering, vilket gör yrket mycket motståndskraftigt mot AI-exponering."
+  },
+  "7113": {
+    "score": 1.2,
+    "rationale": "Betongarbete är ett utpräglat fysiskt hantverk som kräver direkt närvaro på byggarbetsplatsen och manuell skicklighet med specialiserade verktyg – detta utgör ett starkt naturligt hinder mot AI-automatisering. Även om AI kan optimera schemaläggning eller arbetsplatslogistik på marginalen, kan själva kärnjobbet med att gjuta, vibrera och slippa betong inte ersättas av AI inom överskådlig framtid."
+  },
+  "7114": {
+    "score": 1.5,
+    "rationale": "Anläggningsarbete är till sin natur fysiskt och utomhusbaserat med tunga maskiner och manuellt markarbete, vilket utgör ett starkt hinder mot AI-automatisering. Även om GPS-styrda maskiner och digitala hjälpmedel ökar effektiviteten, kräver arbetet fortfarande mänsklig närvaro, situationsanpassning och fysisk förmåga på plats."
+  },
+  "7115": {
+    "score": 1.8,
+    "rationale": "Anläggningsdykare utför tungt manuellt arbete under vatten med specialiserade verktyg och kräver fysisk närvaro i extrema miljöer, vilket gör direkt AI-automatisering mycket svår. De digitala inslagen är minimala och begränsas till dokumentation och viss inspektionsanalys, men kärnarbetet förblir utom räckhåll för AI under överskådlig framtid."
+  },
+  "7116": {
+    "score": 1.2,
+    "rationale": "Ställningsbyggare utför ett tungt, fysiskt arbete på hög höjd och utomhus som kräver manuell skicklighet, kroppslig närvaro och situationsanpassade bedömningar – arbetsuppgifter som AI inte kan automatisera i dagsläget. Det minimala digitala inslaget, som att läsa ritningar eller dokumentera säkerhet, påverkar knappast yrkets AI-exponering nämnvärt."
+  },
+  "7119": {
+    "score": 1.5,
+    "rationale": "Detta yrke kräver fysisk närvaro på byggarbetsplatser och innefattar manuellt arbete som murning, rivning, schaktning och montering – uppgifter som AI inte kan utföra direkt. Den mycket begränsade användningen av digitala verktyg och arbetets fysiska karaktär skapar en stark naturlig barriär mot AI-exponering."
+  },
+  "7121": {
+    "score": 0.8,
+    "rationale": "Takmontörer utför ett utpräglat fysiskt arbete på hög höjd som kräver manuell skicklighet, kroppslig närvaro och hantering av tunga material – arbete som AI varken kan automatisera direkt eller göra digitalt. De begränsade digitala inslagen, som ritningsläsning eller dokumentation i appar, påverkar inte kärnan i yrket nämnvärt."
+  },
+  "7122": {
+    "score": 1.5,
+    "rationale": "Golvläggning är ett utpräglat hantverksyrke som kräver fysisk närvaro, manuell skicklighet och förmåga att hantera verkliga material på specifika platser – något som AI inte kan replikera. Viss exponering finns via AI-stödda planeringsverktyg och materialberäkning, men kärnarbetet är i praktiken immunt mot automatisering."
+  },
+  "7123": {
+    "score": 1.5,
+    "rationale": "Isoleringsmontörer utför ett utpräglat fysiskt och manuellt arbete på byggarbetsplatser och i industrimiljöer, vilket skapar en stark naturlig barriär mot AI-automation. De begränsade digitala inslagen – som att läsa ritningar på surfplatta – kan möjligen effektiviseras något av AI, men kärnarbetet med att mäta, skära och montera isoleringsmaterial kräver mänsklig närvaro och manuell skicklighet."
+  },
+  "7124": {
+    "score": 1.8,
+    "rationale": "Glastekniker utför primärt fysiskt, platsbaserat arbete med mätning, skärning och montering av glas, vilket kräver manuell skicklighet och närvaro på arbetsplatsen – uppgifter som AI inte kan automatisera direkt. Viss exponering finns inom tekniska beräkningar och ritningsläsning, men kärnarbetet förblir i hög grad skyddat mot AI-påverkan."
+  },
+  "7125": {
+    "score": 2.1,
+    "rationale": "VVS-montörers kärnarbete är utpräglat fysiskt och kräver manuell skicklighet på plats – rördragning, svetsning och montering kan inte utföras av AI eller på distans. Vissa kringuppgifter som ritningsläsning, felsökning och dokumentation kan delvis stödjas av AI, men det ger minimal produktivitetsvinst i det faktiska hantverket."
+  },
+  "7126": {
+    "score": 2.8,
+    "rationale": "Kyl- och värmepumpstekniker arbetar fysiskt på plats hos kund och hanterar komplex mekanisk och termodynamisk utrustning som kräver manuellt hantverk och specialiserade verktyg – detta utgör ett starkt skydd mot AI-automatisering. Det digitala inslaget ökar via felavläsning och driftsättningsprogramvara, men AI kan i dagsläget inte ersätta det praktiska montage- och felsökningsarbetet på plats, vilket håller exponeringen låg."
+  },
+  "7131": {
+    "score": 1.5,
+    "rationale": "Målare utför ett utpräglat fysiskt och hantverksmässigt arbete som kräver manuell skicklighet, fysisk närvaro på arbetsplatsen och hantering av verktyg och material – något som AI inte kan automatisera i dagsläget. Digitala verktyg spelar en marginell roll i yrket, och jobbet kan inte utföras på distans eller via dator, vilket ger mycket låg AI-exponering."
+  },
+  "7132": {
+    "score": 1.8,
+    "rationale": "Arbetet är helt fysiskt och utförs på plats i verkstäder, fabriker eller ute i fält, vilket gör direkt AI-automatisering mycket svår inom överskådlig framtid. Viss exponering finns genom att robotar och automatiserade sprutsystem kan ta över standardiserade målningsuppgifter i fabriksmiljö, men det manuella hantverket och variationen i arbetsuppgifter ger ett naturligt skydd."
+  },
+  "7133": {
+    "score": 1.8,
+    "rationale": "Skorstensfejaren utför till övervägande del fysiskt, platsbaserat arbete som kräver manuell skicklighet och direkt tillgång till byggnader och skorstenar – något som AI inte kan automatisera. Det finns viss exponering via digitala inspektionsrapporter och dokumentation, men kärnarbetet är starkt skyddat mot AI-påverkan."
+  },
+  "7134": {
+    "score": 1.5,
+    "rationale": "Saneringsarbete är ett utpräglat fysiskt yrke som kräver direkt närvaro på plats för hantering av farliga ämnen, rivning och sanering av byggnader – uppgifter som AI inte kan utföra. Den minimala digitala komponenten (dokumentation och rapportering) kan möjligen effektiviseras med AI, men kärnan i arbetet förblir i princip omöjlig att automatisera."
+  },
+  "7211": {
+    "score": 2.1,
+    "rationale": "Gjutararbete är till övervägande del fysiskt och hanteringsintensivt med moment som kräver manuell skicklighet i en krävande gjuterimiljö med höga temperaturer och tunga material. AI kan visserligen optimera processer och kvalitetskontroll, men den direkta automationsrisken begränsas av behovet av fysisk närvaro och hantering, även om robotisering på längre sikt kan påverka yrket."
+  },
+  "7212": {
+    "score": 2.8,
+    "rationale": "Svetsare och gasskärare utför fysiskt krävande, hantverksbaserat arbete som kräver manuell skicklighet, rumslig närvaro och sensorisk bedömning i realtid – faktorer som utgör starka barriärer mot AI-automation. Viss exponering finns via robotsvetsning och automatiserade system som redan ersätter enklare repetitiva svetsuppgifter, men komplext och varierat arbete på byggarbetsplatser och i industrin kräver fortsatt mänsklig kompetens under överskådlig tid."
+  },
+  "7213": {
+    "score": 2.1,
+    "rationale": "Arbetet som byggnads- och ventilationsplåtslagare är starkt beroende av fysisk närvaro, manuell hantverksskicklighet och arbete på byggarbetsplatser eller i verkstäder, vilket utgör ett naturligt hinder för AI-automatisering. Digitala verktyg används i begränsad utsträckning för ritningsläsning, men kärnuppgifterna – att skära, forma, böja och montera plåt – kräver mänskliga händer och kan inte utföras på distans via dator."
+  },
+  "7214": {
+    "score": 2.8,
+    "rationale": "Tunnplåtslagare arbetar fysiskt med metallbearbetning och installation på byggarbetsplatser och i verkstäder, vilket innebär en stark naturlig barriär mot AI-automation. Viss exponering finns genom AI-stödd ritningsläsning och optimering av skärmönster, men kärnan av arbetet kräver manuell skicklighet och fysisk närvaro som är svår att automatisera med dagens teknik."
+  },
+  "7215": {
+    "score": 1.8,
+    "rationale": "Stålkonstruktionsmontörer och grovplåtsslagare utför tungt fysiskt arbete på byggarbetsplatser och industrianläggningar med specialiserad utrustning som kranar och svetsaggregat, vilket kräver manuell skicklighet och fysisk närvaro som AI inte kan ersätta. Viss exponering finns via AI-stödd ritningsanalys och planering, men kärnarbetet är i princip omöjligt att automatisera med dagens teknik."
+  },
+  "7221": {
+    "score": 1.5,
+    "rationale": "Smedyrket är till sin kärna ett fysiskt och manuellt hantverk som kräver direkt arbete med het metall, kraftfulla maskiner och specifik kroppskontroll – något som AI inte kan automatisera inom överskådlig framtid. Även om CNC-styrda pressar och digitala ugnar används i moderna smedjer, kräver kärnarbetet mänsklig närvaro, fysisk styrka och erfarenhetsbaserat omdöme vid metallformning."
+  },
+  "7222": {
+    "score": 3.2,
+    "rationale": "Verktygsmakare utför i grunden fysiskt, precisionskrävande hantverk med maskiner och handverktyg i en verkstadsmiljö, vilket utgör ett naturligt hinder mot direkt AI-automatisering. Viss exponering finns via AI-assisterad CNC-programmering och optimering av tillverkningsprocesser, men den praktiska kärnkompetensen – att forma och finbearbeta metall till snäva toleranser – kräver fysisk närvaro och manuell skicklighet som AI inte kan ersätta i närtid."
+  },
+  "7223": {
+    "score": 3.8,
+    "rationale": "Maskinoperatörer inom metallarbete har ett tydligt fysiskt inslag med hands-on hantering av maskiner, verktyg och fixturer som begränsar direkt AI-automatisering. Dock innebär CNC-programmering och digitala styrsystem ett visst exponeringsmoment, och AI kan på sikt optimera programkod och kvalitetskontroll, men det praktiska maskinhandhavandet kräver fortfarande fysisk närvaro."
+  },
+  "7224": {
+    "score": 2.8,
+    "rationale": "Arbetet som slipare är till övervägande del fysiskt och manuellt, med krav på taktil känsla, precision och närvaro vid maskiner i en verkstadsmiljö, vilket utgör en naturlig barriär mot AI-automatisering. Viss exponering finns genom CNC-styrda slipmaskiner och automatiserade processer som gradvis kan minska behovet av manuella operatörer, men yrket kräver fortfarande hantverk och fysisk närvaro på plats."
+  },
+  "7231": {
+    "score": 3.2,
+    "rationale": "Fordonsmekanikerns arbete är till stor del fysiskt och kräver närvaro i verkstad med händerna för att utföra reparationer och byten, vilket ger ett naturligt skydd mot AI-automatisering. Dock ökar AI-exponeringen något genom att diagnostikprocessen och felsökning av elektroniska system i moderna fordon kan effektiviseras av AI-verktyg, vilket kan minska behovet av arbetstid för den kognitiva delen av yrket."
+  },
+  "7232": {
+    "score": 2.8,
+    "rationale": "Flygmekanikerns arbete är till sin kärna fysiskt och hands-on – det kräver direkt kontakt med luftfartyget i hangar eller på plats, vilket utgör en stark naturlig barriär mot AI-automation. AI kan visserligen stödja felsökning, dokumentation och underhållsplanering, men kan inte ersätta den manuella skicklighet och de certifierade fysiska inspektioner som yrket kräver."
+  },
+  "7233": {
+    "score": 3.2,
+    "rationale": "Arbetet är starkt fysiskt och platsbundet – mekanikern måste vara på plats vid maskinen för att utföra reparationer och underhåll med handverktyg och specialutrustning, vilket utgör ett naturligt skydd mot direkt AI-automatisering. AI kan stödja felsökning via diagnostiksystem och manualsökning, men kan inte ersätta den manuella, taktila kompetensen att faktiskt laga en trasig maskin ute i en fabrik eller på ett fält."
+  },
+  "7311": {
+    "score": 2.8,
+    "rationale": "Finmekanikerns arbete är djupt förankrat i manuellt hantverk, finmotorik och fysisk precision – egenskaper som AI inte kan automatisera direkt. Viss exponering finns genom CNC-teknik och digitala designverktyg som kan effektivisera delar av arbetet, men kärnan i yrket kräver mänsklig skicklighet och närvaro."
+  },
+  "7312": {
+    "score": 2.8,
+    "rationale": "Guld- och silversmeder utför till övervägande del hantverk som kräver fin motorik, fysisk närvaro och manuell precision vid en arbetsbänk, vilket ger ett naturligt skydd mot AI-automatisering. Viss exponering finns dock genom CAD-programvara för smyckesdesign och AI-stödda designverktyg som kan minska behovet av manuellt ritarbete, men kärnarbetet förblir i hög grad manuellt och svårt att automatisera."
+  },
+  "7319": {
+    "score": 2.8,
+    "rationale": "Musikinstrumentmakare och konsthantverkare arbetar primärt med händerna och fysiska material, vilket skapar en stark naturlig barriär mot AI-automatisering. AI kan visserligen assistera med design via CAD eller optimering av material, men kärnan i yrket – den fysiska skickligheten, materialkänslan och handens precision – kan inte ersättas av AI inom överskådlig framtid."
+  },
+  "7321": {
+    "score": 8.2,
+    "rationale": "Prepresstekniker arbetar nästan uteslutande digitalt med väldefinierade, repetitiva uppgifter som färgkorrigering, filkontroll och typografi – uppgifter som AI-verktyg redan börjar automatisera inom Adobe-ekosystemet och via AI-drivna preflight-lösningar. Även om fysisk förståelse för tryckmaterial fortfarande krävs, är merparten av arbetet AI-exponerat eftersom det handlar om bildbehandling, filoptimering och layoutkontroll som i hög grad kan utföras av avancerade AI-system."
+  },
+  "7322": {
+    "score": 3.5,
+    "rationale": "Tryckare arbetar i hög grad med fysiska maskiner som kräver manuell kalibrering, felavhjälpning och närvaro på plats, vilket begränsar direkt AI-automatisering. Digitala delar av arbetet som hantering av tryckfiler och styrsystem kan i viss mån effektiviseras av AI, men den fysiska maskindriften utgör en tydlig barriär mot hög AI-exponering."
+  },
+  "7323": {
+    "score": 2.8,
+    "rationale": "Bokbindare arbetar med fysiska material och manuella processer som falsning, limning och sömnad av pappersark, vilket kräver praktisk närvaro och hantverk som är svårt att automatisera med AI. Viss exponering finns dock eftersom industriell bokbindning delvis redan är maskin- och datorsstyrd, och efterfrågan på trycksaker fortsätter att minska i takt med digitalisering, vilket indirekt minskar behovet av yrket."
+  },
+  "7411": {
+    "score": 2.5,
+    "rationale": "Elektriker arbetar fysiskt på plats med kabeldragning, montering och felsökning – uppgifter som kräver manuell skicklighet och fysisk närvaro som AI inte kan ersätta direkt. Viss exponering finns dock via AI-stödda diagnostikverktyg och digitala ritningar som kan öka effektiviteten, men yrket har ett starkt naturligt skydd mot automatisering."
+  },
+  "7412": {
+    "score": 2.8,
+    "rationale": "Industrielektrikerns kärnuppgifter – att dra kablar, terminera anslutningar och felsöka fysisk utrustning på plats i industrimiljöer – kräver manuell skicklighet och fysisk närvaro som AI inte kan ersätta direkt. Vissa delar av arbetet, som att läsa scheman, diagnostisera fel och dokumentera, kan delvis stödjas av AI-verktyg, men automatiseringsgraden förblir låg eftersom jobbet är fundamentalt hands-on."
+  },
+  "7413": {
+    "score": 2.1,
+    "rationale": "Distributionselektrikerns kärnarbete är utpräglat fysiskt och kräver arbete utomhus i varierande väderförhållanden, klättring på stolpar, hantering av tunga kablar och reparationer på plats – uppgifter som AI inte kan automatisera inom överskådlig framtid. Digitala verktyg som arbetsorderhantering och GIS-dokumentation kan effektiviseras med AI, men det påverkar enbart en liten del av arbetet och sänker inte behovet av kvalificerade fälttekniker i nämnvärd utsträckning."
+  },
+  "7420": {
+    "score": 3.2,
+    "rationale": "Elektronikreparatörer och kommunikationselektriker arbetar primärt med fysiska, hands-on uppgifter som lödning, kabelinstallation och hårdvarufelsökning på plats, vilket skapar en naturlig barriär mot direkt AI-automatisering. AI kan visserligen effektivisera diagnostik och felsökning via smarta verktyg, men kärnan i yrket kräver manuell skicklighet och fysisk närvaro som begränsar exponeringen."
+  },
+  "7521": {
+    "score": 1.8,
+    "rationale": "Manuell ytbehandling av trä är ett utpräglat hantverksmässigt och fysiskt arbete som kräver känsla för material, handhavande av verktyg och närvaro i produktionsmiljön – något som AI inte kan ersätta direkt. Digitala inslag är minimala och arbetet kan inte utföras på distans, vilket ger mycket låg AI-exponering."
+  },
+  "7522": {
+    "score": 2.8,
+    "rationale": "Möbelsnickeri är ett utpräglat hantverksyrke med stark fysisk förankring – arbetet kräver manuell skicklighet, träbearbetning och fysisk närvaro i verkstad. Visst AI-inslag finns via CNC-programmering och digitala ritningar, men kärnkompetensen är svår att automatisera med AI och yrket skyddas av sin fysiska natur."
+  },
+  "7523": {
+    "score": 3.5,
+    "rationale": "Arbetet kräver fysisk närvaro i produktionsmiljö och praktisk hantering av maskiner och material, vilket utgör en stark barriär mot direkt AI-automation. Vissa digitala moment som CNC-programmering kan effektiviseras av AI, men kärnuppgifterna – maskinuppsättning, materialhantering och kvalitetskontroll på plats – är svåra att automatisera utan avancerad robotik, vilket håller exponeringen relativt låg."
+  },
+  "7531": {
+    "score": 2.8,
+    "rationale": "Skräddare och sömmerskor utför till stor del manuellt hantverksarbete som kräver fysisk närvaro, fingerfärdighet och direkt kundkontakt, vilket utgör ett naturligt skydd mot AI-automatisering. Viss exponering finns inom mönsterkonstruktion och design via CAD-verktyg, men det praktiska syhantverket och anpassningen efter individuella kundmått är svårt att ersätta med AI på kort sikt."
+  },
+  "7532": {
+    "score": 1.8,
+    "rationale": "Sömmarsarbete är till övervägande del fysiskt och manuellt – att klippa tyg, sy på industrimaskin och finisera sömmar kräver handens precision och närvaro vid maskinen, vilket AI inte kan ersätta i närtid. Viss exponering finns indirekt via automatiserade textilmaskiner och mönstergenereringsprogram, men kärnarbetet utgör ett starkt hinder mot AI-substitution."
+  },
+  "7533": {
+    "score": 2.1,
+    "rationale": "Tapetsering är ett utpräglat hantverksyrke som kräver fysisk närvaro, manuell skicklighet och taktil bedömning av material – uppgifter som AI inte kan automatisera direkt. Viss exponering finns via AI-stödd mönsteroptimering eller orderhantering, men kärnan i arbetet förblir i hög grad skyddat från AI-påverkan."
+  },
+  "7534": {
+    "score": 1.5,
+    "rationale": "Läderhantverkare och skomakare utför nästan uteslutande fysiskt och hantverksmässigt arbete som kräver manuell skicklighet, precision och hantering av material – uppgifter som AI inte kan automatisera direkt. Även om AI kan påverka design och mönsterläggning i viss mån, är kärnan i yrket beroende av fysisk närvaro och hantverk, vilket ger mycket låg AI-exponering."
+  },
+  "7611": {
+    "score": 1.5,
+    "rationale": "Slaktare och styckare utför nästan uteslutande fysiska, hantverk­sbaserade arbetsuppgifter i kalla miljöer med specialiserade verktyg, vilket gör direktautomatisering via AI mycket svårt. Även om robotik på sikt kan automatisera vissa repetitiva moment i storskalig köttindustri, kräver yrkets kärna manuell skicklighet, sensorisk bedömning och anpassningsförmåga som AI har mycket svårt att ersätta inom överskådlig framtid."
+  },
+  "7612": {
+    "score": 1.8,
+    "rationale": "Bagare och konditorer utför till övervägande del fysiskt hantverksarbete som kräver manuell skicklighet, sensoriskt omdöme och fysisk närvaro i ett bageri eller en produktionslokal. AI kan i viss mån optimera recept eller styra produktionsutrustning, men kärnan i yrket – att forma, baka och dekorera produkter för hand – är svår att automatisera med AI."
+  },
+  "7613": {
+    "score": 2.8,
+    "rationale": "Arbetet kräver fysisk närvaro och mänskliga sinnen – lukt, smak och känsel – som AI inte kan replikera direkt, vilket ger ett starkt naturligt skydd mot automatisering. Viss exponering finns dock genom att AI-driven sensorisk analys och spektroskopi kan komplettera eller minska behovet av mänskliga bedömare för rutinkontroller, men kärnan i yrket förblir manuell och sensorisk."
+  },
+  "7619": {
+    "score": 2.8,
+    "rationale": "Arbetet är till övervägande del fysiskt och manuellt och utförs i produktionsmiljö, vilket ger ett naturligt skydd mot direkt AI-automatisering. Viss exponering finns genom ökad robotisering och automation av produktionslinjer, men den mänskliga närvaron, hanteringen av varierande råvaror och arbetsmiljöns krav begränsar AI-exponeringen markant."
+  },
+  "8111": {
+    "score": 2.1,
+    "rationale": "Gruv- och stenbrottsarbete är starkt beroende av fysisk närvaro, tung maskinhantering och arbete i krävande miljöer som är svåra att automatisera fullt ut. Även om digitala styrsystem och fjärrstyrda maskiner ökar gradvis, kräver arbetet fortfarande manuell kompetens, situationsanpassning och fysisk hantering på plats som begränsar AI-exponeringen avsevärt."
+  },
+  "8112": {
+    "score": 3.2,
+    "rationale": "Arbetet kräver fysisk närvaro i anläggningen för maskinrundvandringar, byte av slitdelar och hantering av stopp, vilket skapar en stark barriär mot direkt AI-automation. Viss exponering finns dock genom att övervaknings- och styrsystem (SCADA/DCS) kan automatiseras ytterligare med AI, vilket kan minska behovet av operatörer för de mer rutinmässiga kontrolluppgifterna."
+  },
+  "8113": {
+    "score": 1.5,
+    "rationale": "Brunnsborrare utför tungt fysiskt arbete utomhus med tunga maskiner och borriggar på varierande arbetsplatser, vilket gör direkt AI-automatisering mycket svår inom överskådlig framtid. Moderna digitala styrsystem ökar visserligen AI-inslaget något, men kärnan i arbetet kräver manuell skicklighet, fysisk närvaro och situationsanpassning på plats."
+  },
+  "8114": {
+    "score": 2.8,
+    "rationale": "Arbetet är till stor del fysiskt och utförs i fabriksmiljö med hantering av tunga material och maskiner, vilket ger ett naturligt skydd mot AI-automatisering. Viss exponering finns genom att moderna styrsystem och AI-driven procesövervakning kan effektivisera produktionen och minska behovet av operatörer, men den fysiska komponenten begränsar exponeringen avsevärt."
+  },
+  "8115": {
+    "score": 1.8,
+    "rationale": "Bergssprängare utför extremt fysiskt krävande arbete i miljöer som kräver direkt manuell närvaro – hantering av sprängämnen, borrutrustning och säkerhetsinspektioner på plats kan inte utföras av AI. Vissa digitala hjälpmedel som elektroniska detonationssystem och dokumentation kan delvis automatiseras, men kärnan i yrket är fundamentalt hands-on och omöjlig att fjärrstyra eller automatisera med nuvarande eller nära framtida AI-teknik."
+  },
+  "8116": {
+    "score": 1.5,
+    "rationale": "Stenhuggning och stenbearbetning är ett utpräglat hantverksyrke som kräver fysisk närvaro, manuell skicklighet och direkt hantering av tunga material – något som AI inte kan ersätta i närtid. Viss exponering finns möjligen inom CNC-styrd stenbearbetning och digitala designverktyg, men kärnarbetet förblir hands-on och svårt att automatisera med AI."
+  },
+  "8121": {
+    "score": 2.8,
+    "rationale": "Arbetet är i grunden fysiskt och platsbundet med direkt hantering av maskiner, kemikalier och produkter, vilket begränsar AI:s direkta automationsförmåga. Viss exponering finns via datoriserade styrsystem (PLC) och kvalitetsinspektionssystem som kan automatiseras, men kärnan i yrket kräver fysisk närvaro och manuell skicklighet."
+  },
+  "8122": {
+    "score": 3.2,
+    "rationale": "Valsverksoperatörer arbetar i en fysisk industrimiljö med tung utrustning, höga temperaturer och bullriga förhållanden som kräver närvaro på plats, vilket utgör ett naturligt skydd mot direkt AI-automatisering. Även om HMI-system och digitala kontrollpaneler gör delar av arbetet mer AI-exponerat, kräver jobbet fortfarande manuella kontroller, fysisk bedömning av material och reaktioner på oförutsedda händelser i produktionsmiljön."
+  },
+  "8129": {
+    "score": 3.2,
+    "rationale": "Arbetet kräver fysisk närvaro i en industriell miljö med manuell hantering av maskiner och mätverktyg, vilket utgör en stark barriär mot direkt AI-automatisering. Digitala inslag via HMI-paneler ökar exponeringen något, och AI kan förbättra processövervakning och kvalitetskontroll, men kärnan i arbetet förblir fysiskt och platsbundet."
+  },
+  "8131": {
+    "score": 3.8,
+    "rationale": "Arbetet är starkt knutet till fysisk närvaro vid maskiner och kräver manuell skicklighet, kalibrering och kvalitetskontroll i en reglerad GMP-miljö, vilket utgör ett naturligt hinder mot AI-automatisering. Viss exponering finns dock genom att AI kan optimera processstyrning, automatisera dokumentation i MES-system och förbättra prediktivt underhåll, vilket på sikt kan minska behovet av operatörer."
+  },
+  "8132": {
+    "score": 3.2,
+    "rationale": "Arbetet kräver fysisk närvaro vid maskiner och produktionslinjer, hantering av råmaterial samt felsökning på plats, vilket utgör en stark barriär mot direkt AI-automatisering. Viss exponering finns dock då AI kan optimera processparametrar, förbättra övervakning via sensorer och SCADA-system samt minska behovet av manuell kvalitetskontroll, vilket på sikt kan minska antalet operatörer som krävs."
+  },
+  "8141": {
+    "score": 2.8,
+    "rationale": "Maskinoperatörer i gummiindustrin arbetar fysiskt på fabriksgolvet med att sköta och justera industriella maskiner, vilket kräver manuell närvaro och praktisk hantering av material och utrustning. Viss automatiseringsrisk finns via robotisering och smarta styrsystem, men det hands-on arbetet med maskinjusteringar, kvalitetskontroll och problemlösning på plats begränsar AI-exponeringen avsevärt."
+  },
+  "8142": {
+    "score": 2.8,
+    "rationale": "Arbetet är till sin kärna fysiskt och platsbundet – operatören måste vara fysiskt närvarande för att ladda material, justera maskiner och utföra kvalitetskontroller i produktionsmiljön, vilket ger ett naturligt skydd mot direkt AI-automatisering. Viss exponering finns dock genom att AI och avancerad automation kan optimera maskinparametrar, övervaka kvalitet via datorseende och minska behovet av manuella justeringar, men en fullständig ersättning kräver avancerad robotik snarare än mjukvarubaserad AI."
+  },
+  "8143": {
+    "score": 2.8,
+    "rationale": "Arbetet är till stor del fysiskt och platsbundet på en fabriksgolv, vilket ger ett naturligt skydd mot direkt AI-automatisering. Även om digitala styrsystem (HMI/PLC) kan effektiviseras med AI för övervakning och optimering, kräver hantering av material, maskinuppsättning och felsökning på plats mänsklig närvaro under överskådlig framtid."
+  },
+  "8151": {
+    "score": 2.8,
+    "rationale": "Arbetet är starkt fysiskt och platsbundet med manuell hantering av maskiner, kemikalier och textilier i industriella miljöer, vilket ger ett naturligt skydd mot AI-automatisering. Viss exponering finns dock genom att AI kan optimera maskininställningar, kvalitetskontroll och processövervakning, samt att automatiserade robotsystem på sikt kan ta över delar av lastning och lossning."
+  },
+  "8159": {
+    "score": 2.8,
+    "rationale": "Arbetet kräver fysisk närvaro vid industrimaskinerna och innefattar manuell hantering av material, inmatning och kvalitetskontroll på plats – uppgifter som AI inte kan utföra på distans. Viss exponering finns via automatisering av övervaknings- och styrsystem, men den fysiska komponenten utgör ett starkt hinder mot direkt AI-substitution."
+  },
+  "8161": {
+    "score": 2.8,
+    "rationale": "Arbetet är utpräglat fysiskt och kräver närvaro i kylda produktionslokaler med hantering av maskiner och råvaror, vilket utgör en stark barriär mot AI-automatisering. Viss exponering finns via ökad automatisering av maskinstyrning och robotiserad hantering, men kärnuppgifterna kräver manuell skicklighet och fysisk anpassning i en komplex miljö."
+  },
+  "8162": {
+    "score": 2.8,
+    "rationale": "Maskinoperatörer inom mejeri arbetar med fysisk processutrustning i industriella miljöer och kräver manuell närvaro för att övervaka, justera och underhålla maskiner samt ta kvalitetsprover – något som AI inte kan ersätta direkt. Viss exponering finns genom att AI kan optimera styrsystem (SCADA/HMI) och minska behovet av manuell övervakning, men den fysiska närvaron och processinriktade naturen utgör en stark barriär mot automatisering."
+  },
+  "8163": {
+    "score": 2.8,
+    "rationale": "Arbetet är till stor del fysiskt och platsbundet, med direkt hantering av industriella maskiner, råvaror och produktionsutrustning som kräver närvaro på fabriksgolvet. Viss automatiseringsrisk finns genom AI-styrda processkontrollsystem och robotisering, men den manuella och mekaniska karaktären på arbetet begränsar AI-exponeringen avsevärt."
+  },
+  "8169": {
+    "score": 2.8,
+    "rationale": "Maskinoperatörer inom livsmedelsindustri arbetar fysiskt på plats med industriell utrustning och kräver manuell hantering, sensorisk bedömning och realtidsövervakning som är svår att automatisera med AI i närtid. Visst stöd från AI kan förekomma för kvalitetskontroll och processoptimering, men kärnuppgifterna förblir till stor del fysiska och platsanknutna."
+  },
+  "8171": {
+    "score": 3.8,
+    "rationale": "Processoperatörer inom pappersmassa arbetar i en kombination av kontrollrum och fysisk fabriksmiljö, vilket innebär att AI kan förbättra processövervakning och optimering via befintliga DCS/SCADA-system men inte ersätta det fysiska arbetet med inspektion, provtagning och felsökning av utrustning. Den starka kopplingen till industriell fysisk närvaro och hantering av oförutsedda driftstörningar i en komplex miljö begränsar AI-exponeringen avsevärt."
+  },
+  "8172": {
+    "score": 3.8,
+    "rationale": "Processoperatörer inom papper arbetar visserligen med datoriserade styrsystem (DCS/SCADA) som kan automatiseras och optimeras med AI, men arbetet kräver också fysisk närvaro i anläggningen för rundor, ventiljusteringar och felsökning av störningar. AI kan förbättra processoptimering och larmhantering, men den fysiska komponenten och behovet av situationsanpassad bedömning i en industriell miljö utgör ett naturligt skydd mot full automatisering."
+  },
+  "8173": {
+    "score": 2.8,
+    "rationale": "Arbetet är starkt fysiskt förankrat på fabriksgolvet med hantering av tungt timmer och industriella maskiner, vilket utgör en naturlig barriär mot direkt AI-automatisering. Viss exponering finns via ökad automation av styrsystem och bildanalys för kvalitetskontroll, men kärnuppgifterna kräver fysisk närvaro och manuell hantering under överskådlig framtid."
+  },
+  "8174": {
+    "score": 2.8,
+    "rationale": "Arbetet är starkt fysiskt och platsbundet på fabriksgolvet, med direkt hantering av maskiner, material och produktionslinjer som kräver manuell närvaro. Viss AI-exponering finns via automatisering av processtyrning och kvalitetskontroll med datorseende, men kärnuppgifterna kräver fysisk interaktion med utrustning och material som begränsar AI:s direkta påverkan."
+  },
+  "8181": {
+    "score": 3.2,
+    "rationale": "Maskinoperatörer inom packning och märkning arbetar fysiskt på fabriksgolvet med maskiner, materialhantering och felsökning, vilket utgör ett naturligt hinder för direkt AI-automatisering. Även om robotik och automatisering på längre sikt kan ersätta vissa uppgifter (t.ex. via avancerade pick-and-place-robotar), kräver jobbet fortfarande fysisk närvaro, manuell problemlösning och anpassningsförmåga i realtid som gör att AI-exponeringen förblir relativt låg."
+  },
+  "8189": {
+    "score": 3.2,
+    "rationale": "Dessa operatörer arbetar i fysiska produktionsmiljöer med maskinhantering, materialtillförsel och underhåll, vilket skapar en naturlig barriär mot direkt AI-automatisering. Viss exponering finns dock genom att AI och robotik gradvis kan överta övervakning, justering och styrning av processutrustning, men den fysiska närvaron och manuella hanteringen begränsar exponeringen avsevärt."
+  },
+  "8191": {
+    "score": 4.2,
+    "rationale": "Drifttekniker vid värme- och vattenverk arbetar med en kombination av digital processövervakning via SCADA-system och fysiska arbetsuppgifter som rondering, provtagning och underhåll, vilket skapar en naturlig barriär mot full automatisering. AI kan automatisera larmhantering, optimera driftparametrar och förutsäga fel, men de regelbundna fysiska insatserna och behovet av situationsanpassad problemlösning på plats begränsar exponeringen till en måttlig nivå."
+  },
+  "8192": {
+    "score": 6.2,
+    "rationale": "Processövervakare arbetar redan primärt med digitala styrsystem och datatolkning, vilket gör kärnuppgifterna som larmhantering, parameteroptimering och avvikelsedetektering exponerade för AI-automatisering. Dock kräver arbetet regelbunden fysisk närvaro i anläggningen för ronder, provtagning och felsökning, samt ansvar för säkerhetskritiska beslut i realtid vilket bromsar full automatisering och håller exponeringen på en måttlig nivå."
+  },
+  "8193": {
+    "score": 5.8,
+    "rationale": "Arbetet är till stor del datorbaserat via DCS/SCADA-system och skärmövervakning, vilket gör det känsligt för AI-driven automatisering av processoptimering och larmhantering. Dock kräver rollen fysisk närvaro i anläggningen, situationsmedvetenhet i en komplex industriell miljö och snabb reaktionsförmåga vid avvikelser, vilket utgör en naturlig barriär mot full automatisering."
+  },
+  "8199": {
+    "score": 5.5,
+    "rationale": "Processövervakare arbetar delvis med SCADA-system och skärmbaserad dataanalys som AI kan automatisera eller förstärka avsevärt, men rollen kräver också fysisk närvaro i anläggningen för rundvandringar, felsökning och underhåll som begränsar exponeringen. AI kan ta över larmhantering och anomalidetektering men den kombinerade digitalt-fysiska karaktären håller exponeringen på en medelnivå."
+  },
+  "8211": {
+    "score": 3.2,
+    "rationale": "Fordonsmontörer utför övervägande fysiskt och manuellt arbete på fabriksgolvet, vilket utgör en naturlig barriär mot direkt AI-automatisering. Även om robotisering och automatisering redan påverkar branschen kräver monteringsarbete fortfarande mänsklig fingerfärdighet, fysisk närvaro och anpassningsförmåga vid variationer, vilket begränsar AI-exponeringen jämfört med kontorsbaserade yrken."
+  },
+  "8212": {
+    "score": 2.8,
+    "rationale": "Arbetet är till övervägande del fysiskt och manuellt – montering av komponenter vid löpande band kräver fysisk närvaro och handhantverksskicklighet som är svår att automatisera med mjukvarubaserad AI. Viss exponering finns via robotisering och automatiserade monteringssystem, men det är industriell automation snarare än AI som utgör det primära hotet, och manuell finmontering av komplexa elektronikprodukter är fortsatt svår att helautomatisera."
+  },
+  "8213": {
+    "score": 3.8,
+    "rationale": "Arbetet är övervägande fysiskt och repetitivt i en fabriksmiljö, vilket ger ett naturligt skydd mot direkt AI-automatisering på kort sikt. Däremot är montagearbete en av de kategorier där industrirobotar och automatiserade montagesystem successivt tar över repetitiva handgrepp, vilket innebär en betydande indirekt exponering över tid."
+  },
+  "8214": {
+    "score": 2.1,
+    "rationale": "Arbetet är till övervägande del fysiskt och manuellt – montering av träprodukter kräver händighet, rumslig förståelse och hantering av verktyg och material på plats, vilket utgör ett naturligt hinder för AI-automatisering. Viss exponering finns genom att robotar och automatiserade monteringslinjer kan ta över repetitiva delmoment, men det kvarstår ett stort behov av mänsklig skicklighet vid anpassning, kvalitetskontroll och hantering av variation i material."
+  },
+  "8219": {
+    "score": 2.8,
+    "rationale": "Monteringsarbete är till sin natur fysiskt och kräver manuell hantering av komponenter vid löpande band eller arbetsbänk, vilket utgör ett naturligt hinder för direkt AI-automation. Däremot finns en indirekt risk genom robotisering och automatiserade monteringssystem som gradvis kan ersätta repetitivt manuellt monteringsarbete, särskilt för standardiserade produkter."
+  },
+  "8311": {
+    "score": 3.2,
+    "rationale": "Lokföraren utför ett fysiskt-operativt arbete som kräver närvaro i hytten och manuell hantering av tågets reglage, vilket skapar en stark naturlig barriär mot direkt AI-automation. Automatiserade tåg (som tunnelbana och viss godstrafik) visar att tekniken finns, men för reguljär tågtrafik med komplexa miljöer och säkerhetskrav tar fullständig automation lång tid – AI ökar dock gradvis overvakning och stödfunktioner vilket kan minska bemanningsbehoven på sikt."
+  },
+  "8312": {
+    "score": 2.8,
+    "rationale": "Bangårdspersonal utför till stor del fysiskt arbete utomhus – kopplar vagnar, ställer om manuella växlar och rör sig på bangårdar i alla väderförhållanden – vilket utgör en stark barriär mot direkt AI-automatisering. Visst digitalt arbete via signalsystem och rangerdatorer kan effektiviseras av AI, och automaserade rangersystem (t.ex. robotiserad växling) finns redan på vissa moderna bangårdar, men full automatisering av hela rollen är fortfarande begränsad av fysisk komplexitet och säkerhetskrav."
+  },
+  "8321": {
+    "score": 3.5,
+    "rationale": "Taxiförande kräver fysisk närvaro och manuell körförmåga, vilket ger ett naturligt skydd mot direkt AI-automatisering på kort sikt. Dock är självkörande fordon en reell långsiktig hot, och digitala plattformar (Uber, Bolt) har redan effektiviserat branschen kraftigt och minskat behovet av mänskliga mellanhänder i bokning och dispatch."
+  },
+  "8329": {
+    "score": 2.8,
+    "rationale": "Arbetet är i grunden fysiskt och kräver manuell körning i verkliga miljöer, vilket utgör ett naturligt hinder mot direkt AI-automatisering på kort sikt. Autonoma leveransfordon och drönare utgör en långsiktig indirekt risk, men tekniken är ännu inte utbredd nog för att kraftigt minska behovet av mänskliga förare i de flesta sammanhang."
+  },
+  "8331": {
+    "score": 2.8,
+    "rationale": "Buss- och spårvagnsförare kräver fysisk närvaro, manuell körförmåga och realtidsinteraktion med passagerare och trafik, vilket skapar starka barriärer mot direkt AI-automatisering idag. Självkörande fordonsteknologi utvecklas dock och kan på längre sikt påverka yrket betydligt, vilket motiverar en något högre poäng än rena hantverksyrken."
+  },
+  "8332": {
+    "score": 2.8,
+    "rationale": "Lastbilsförare kräver fysisk närvaro, manuell körförmåga och hantering av gods på plats, vilket utgör ett starkt skydd mot direkt AI-automatisering i närtid. Autonoma fordon och AI-logistikoptimering utgör dock en långsiktig indirekt risk, vilket motiverar en något högre poäng än rent manuella hantverksyrken."
+  },
+  "8341": {
+    "score": 3.2,
+    "rationale": "Arbetet kräver fysisk närvaro i maskin och utmanande terräng, vilket utgör en naturlig barriär mot direkt AI-automatisering. Moderna maskiner integrerar dock alltmer GPS-styrning, autonoma funktioner och digitala styrsystem, vilket på sikt kan minska behovet av mänskliga operatörer i vissa moment."
+  },
+  "8342": {
+    "score": 2.1,
+    "rationale": "Anläggningsmaskinförare utför fysiskt krävande arbete i utomhusmiljöer som kräver direkt närvaro och manuell styrning av tunga maskiner, vilket utgör en stark barriär mot AI-automatisering. Även om GPS-styrda system och maskinkontrollteknik ökar produktiviteten och på sikt kan minska behovet av vissa operatörer, kvarstår det grundläggande behovet av en skicklig förare som kan hantera komplexa terrängsituationer och oförutsedda händelser på byggplatser."
+  },
+  "8343": {
+    "score": 2.1,
+    "rationale": "Kranförare arbetar med fysiska maskiner i krävande miljöer som byggarbetsplatser, hamnar och varv, vilket kräver manuell skicklighet, situationsmedvetenhet och realtidskoordination med personal på marken – faktorer som utgör starka barriärer mot AI-automatisering. Viss exponering finns genom fjärrstyrning och automatiserade traverssystem, men fullständig AI-substitution begränsas kraftigt av de komplexa, oförutsägbara fysiska miljöerna och säkerhetskraven."
+  },
+  "8344": {
+    "score": 2.8,
+    "rationale": "Truckförarens arbete kräver fysisk närvaro, manuell körskicklighet och förmåga att hantera varierande fysiska miljöer, vilket utgör ett naturligt hinder mot direkt AI-automatisering. Även om autonoma truckar och robotiserade lager utvecklas i snabb takt, kräver full automatisering stora investeringar och fungerar bäst i högt standardiserade miljöer, vilket innebär att mänskliga truckförare fortfarande behövs i de flesta verkliga arbetsmiljöer under överskådlig framtid."
+  },
+  "8350": {
+    "score": 1.5,
+    "rationale": "Matroser och jungmän utför tungt fysiskt däcksarbete ombord på fartyg i krävande utomhusmiljöer, vilket kräver manuell skicklighet och fysisk närvaro som AI inte kan ersätta. Det begränsade digitala inslaget och det faktum att arbetet är helt beroende av fysisk verklighet – förtöjning, lasthantering, skrapning och målning – gör yrket mycket motståndskraftigt mot AI-automation."
+  },
+  "9111": {
+    "score": 1.5,
+    "rationale": "Städning är ett utpräglat fysiskt yrke som kräver manuell hantering av verktyg, kemikalier och utrustning i varierande miljöer – något som AI inte kan automatisera inom överskådlig framtid utan avancerad robotik. Även om städrobotar finns (t.ex. robotdammsugare), är de långt ifrån att ersätta en professionell städare som hanterar komplexa utrymmen, toaletter, glaspartier och oväntade situationer."
+  },
+  "9119": {
+    "score": 1.2,
+    "rationale": "Arbetet som hemservicepersonal är till sin natur fysiskt och platsbaserat – städning, matlagning och barnpassning kräver manuell närvaro i hemmet och kan inte automatiseras bort av AI i någon nämnvärd utsträckning. Möjlig AI-påverkan begränsas till schemaläggning och kommunikation, men kärnuppgifterna förblir i stort sett opåverkade."
+  },
+  "9120": {
+    "score": 1.5,
+    "rationale": "Arbetet är nästan helt fysiskt och manuellt – biltvätt, fönsterputsning och rengöring kräver direkt hantering av ytor, verktyg och kemikalier på plats, vilket gör automation via AI mycket svårt i närtid. Vissa administrativa delar (bokningar, ruttplanering) kan AI-effektivisera marginellt, men kärnan i yrket är robustare mot AI-exponering än de flesta."
+  },
+  "9210": {
+    "score": 0.8,
+    "rationale": "Bärplockning och skogsplantering är utpräglat fysiskt, manuellt utomhusarbete som kräver rörelse i terräng och hantering av naturmaterial – detta är svårt att automatisera med AI. Även om robotik på sikt kan tänkas utföra delar av arbetet är det tekniskt komplext och kostsamt, och AI-mjukvara i sig har minimal direkt påverkan på dessa arbetsuppgifter."
+  },
+  "9310": {
+    "score": 1.2,
+    "rationale": "Grovarbetare inom bygg och anläggning utför nästan uteslutande fysiskt, manuellt arbete utomhus som grävning, schaktning och materialtransport – uppgifter som kräver fysisk närvaro och muskelkraft som AI inte kan ersätta. Visst AI-stöd kan förekomma i planering eller maskinstyrning, men det grundläggande arbetsinnehållet har mycket låg AI-exponering."
+  },
+  "9320": {
+    "score": 2.8,
+    "rationale": "Arbetet är till övervägande del fysiskt och repetitivt, vilket gör det svårt för AI att direkt automatisera utan robotik och mekanisk infrastruktur – inte ren mjukvaruautomation. Indirekt är exponeringen måttlig eftersom robotar och automationssystem långsamt ersätter enkla packnings- och sorteringsuppgifter i fabriksmiljöer, men detta drivs mer av industriell automation än AI i snäv bemärkelse."
+  },
+  "9331": {
+    "score": 2.1,
+    "rationale": "Hamnarbetare utför tungt fysiskt arbete i en dynamisk utomhusmiljö med specialiserad utrustning, vilket gör direkt AI-automatisering mycket svår på kort till medellång sikt. Även om automatiserade kranar och AGV-fordon finns på vissa moderna hamnar kräver de flesta hamnoperationer fortfarande mänsklig närvaro, situationsanpassning och manuell hantering av varierande gods."
+  },
+  "9332": {
+    "score": 1.5,
+    "rationale": "Arbetet är till övervägande del fysiskt och kräver manuell hantering av gods, möbler och varor på platser där fysisk närvaro är absolut nödvändig. AI kan möjligen optimera ruttplanering eller lagerlogistik indirekt, men själva kärnarbetet med att lyfta, bära och stapla kan inte automatiseras av AI utan kräver antingen mänsklig arbetskraft eller avancerad robotik som ännu inte är kostnadseffektiv i dessa miljöer."
+  },
+  "9411": {
+    "score": 1.5,
+    "rationale": "Pizzabagare och snabbmatsarbetare utför utpräglat fysiskt, manuellt arbete i köket – degbak, tillagning och hantering av utrustning kräver fysisk närvaro och kan inte automatiseras av AI i sin nuvarande form. Viss exponering finns via automatiserade ordersystem och möjligen robotiserad matlagning på sikt, men kärnan i yrket är starkt skyddat av sitt fysiska och hantverksmässiga karaktär."
+  },
+  "9412": {
+    "score": 1.2,
+    "rationale": "Restaurang- och köksbiträden utför nästan uteslutande manuellt, fysiskt arbete i en köks- eller restaurangmiljö som kräver direkt närvaro och handhavande av verktyg och utrustning. Varken diskmaskinsskötsel, grönsaksskalning, städning eller enklare matberedning är uppgifter som AI kan automatisera inom överskådlig framtid, vilket ger yrket ett mycket lågt AI-exponeringsindex."
+  },
+  "9413": {
+    "score": 1.8,
+    "rationale": "Café- och konditoribiträden utför fysiskt, hands-on arbete med direkt kundkontakt, servering och beredning av mat och dryck – uppgifter som kräver mänsklig närvaro och manuell skicklighet som AI inte kan ersätta. Viss automatisering kan ske inom betalningssystem och beställningshantering, men kärnan i yrket är skyddat av fysiska och sociala krav."
+  },
+  "9520": {
+    "score": 1.8,
+    "rationale": "Torg- och marknadsförsäljare är ett utpräglat fysiskt yrke som kräver närvaro på plats, manuell hantering av varor och direkt kundkontakt, vilket ger ett naturligt skydd mot AI-automatisering. Det minimala digitala inslaget och den enkla teknologin gör att AI har mycket liten direkt påverkan på arbetsuppgifterna."
+  },
+  "9610": {
+    "score": 1.5,
+    "rationale": "Renhållnings- och återvinningsarbete är ett utpräglat fysiskt yrke som kräver manuell hantering av tunga kärl utomhus i alla väder, vilket utgör en stark naturlig barriär mot AI-automatisering. Visst stöd från digitala verktyg för ruttplanering kan effektiviseras med AI, men kärnarbetet kräver fysisk närvaro och manuell kraft som inte kan ersättas av AI inom överskådlig framtid."
+  },
+  "9621": {
+    "score": 1.5,
+    "rationale": "Arbetet är helt fysiskt och utomhusbaserat och kräver manuell distribution av material till hushåll och företag, vilket är svårt att automatisera med AI. Det finns viss indirekt exponering genom att digitala reklamkanaler minskar behovet av fysisk distribution, men själva arbetsuppgiften är i stort sett immun mot direkt AI-automatisering."
+  },
+  "9622": {
+    "score": 1.5,
+    "rationale": "Vaktmästare utför till övervägande del fysiskt arbete på plats – reparationer, möbelflyttning, städning och tillträdesskontroll – vilket AI inte kan automatisera direkt. De begränsade digitala inslagen (loggning, kommunikation) kan visserligen effektiviseras av AI, men kärnan i yrket är så praktisk och platsbunden att AI-exponeringen förblir mycket låg."
+  },
+  "9629": {
+    "score": 1.5,
+    "rationale": "Arbetet är till övervägande del fysiskt och utförs på platser som kräver mänsklig närvaro, såsom gator, evenemang och parkeringsplatser, vilket utgör en naturlig barriär mot AI-automatisering. Även om vissa uppgifter som parkeringsövervakning delvis kan automatiseras med sensorer och kameror, kräver de flesta moment i denna kategori manuell hantering och fysisk rörlighet som AI inte enkelt kan ersätta på kort sikt."
   }
 }
